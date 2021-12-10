@@ -1,0 +1,603 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2351 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 7
+Reduced 4 texdatas to 4 (98 bytes to 98)
+Writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+reading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+PREP OK
+9 faces
+3185 square feet [458752.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9 patches before subdivision
+887 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 73876, max 191
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  38/65536         760/1310720  ( 0.1%) 
+vertexes                13/65536         156/786432   ( 0.0%) 
+nodes                   14/65536         448/2097152  ( 0.0%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                    9/65536         504/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                  16/65536         512/2097152  ( 0.0%) 
+leaffaces               10/65536          20/131072   ( 0.0%) 
+leafbrushes              9/65536          18/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               62/512000        248/2048000  ( 0.0%) 
+edges                   32/256000        128/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        8296/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]         320/393216   ( 0.1%) 
+LDR ambient table       16/65536          64/262144   ( 0.0%) 
+HDR ambient table       16/65536          64/262144   ( 0.0%) 
+LDR leaf ambient         2/65536          56/1835008  ( 0.0%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105723/0        ( 0.0%) 
+physics               [variable]        2351/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 20
+Writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2351 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 7
+Reduced 4 texdatas to 4 (98 bytes to 98)
+Writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+reading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+PREP OK
+9 faces
+3185 square feet [458752.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9 patches before subdivision
+887 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 73876, max 191
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  38/65536         760/1310720  ( 0.1%) 
+vertexes                13/65536         156/786432   ( 0.0%) 
+nodes                   14/65536         448/2097152  ( 0.0%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                    9/65536         504/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                  16/65536         512/2097152  ( 0.0%) 
+leaffaces               10/65536          20/131072   ( 0.0%) 
+leafbrushes              9/65536          18/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               62/512000        248/2048000  ( 0.0%) 
+edges                   32/256000        128/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        8296/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]         320/393216   ( 0.1%) 
+LDR ambient table       16/65536          64/262144   ( 0.0%) 
+HDR ambient table       16/65536          64/262144   ( 0.0%) 
+LDR leaf ambient         2/65536          56/1835008  ( 0.0%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105723/0        ( 0.0%) 
+physics               [variable]        2351/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 20
+Writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5449 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 22 texinfos to 10
+Reduced 5 texdatas to 5 (115 bytes to 115)
+Writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+reading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.prt
+  34 portalclusters
+  91 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1118
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 34
+visdatasize:616  compressed from 544
+writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+PREP OK
+90 faces
+201382 square feet [28999096.00 square inches]
+25 Displacements
+45520 Square Feet [6554978.00 Square Inches]
+90 patches before subdivision
+3420 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7779, max 105
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 14/16384         168/196608   ( 0.1%) 
+brushsides              87/163840        696/1310720  ( 0.1%) 
+planes                 102/65536        2040/1310720  ( 0.2%) 
+vertexes               170/65536        2040/786432   ( 0.3%) 
+nodes                  103/65536        3296/2097152  ( 0.2%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos               25/0            4400/0        ( 0.0%) 
+disp_verts            2025/0           40500/0        ( 0.0%) 
+disp_tris             3200/0            6400/0        ( 0.0%) 
+disp_lmsamples      115600/0          115600/0        ( 0.0%) 
+faces                   90/65536        5040/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               41/65536        2296/3670016  ( 0.1%) 
+leaves                 105/65536        3360/2097152  ( 0.2%) 
+leaffaces               70/65536         140/131072   ( 0.1%) 
+leafbrushes             63/65536         126/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              552/512000       2208/2048000  ( 0.1%) 
+edges                  341/256000       1364/1024000  ( 0.1%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              6/32768          60/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            78/65536         156/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      118748/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         616/16777216 ( 0.0%) 
+entdata               [variable]         324/393216   ( 0.1%) 
+LDR ambient table      105/65536         420/262144   ( 0.2%) 
+HDR ambient table      105/65536         420/262144   ( 0.2%) 
+LDR leaf ambient        34/65536         952/1835008  ( 0.1%) 
+HDR leaf ambient       105/65536        2940/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1764     ( 0.1%) 
+pakfile               [variable]      105723/0        ( 0.0%) 
+physics               [variable]        5449/4194304  ( 0.1%) 
+physics terrain       [variable]        2251/1048576  ( 0.2%) 
+
+Level flags = 0
+
+Total triangle count: 205
+Writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/linventif_admin_room_v2/nature/blendgrassgrass001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity color_correction (2762.22 -324.00 200.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7545 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 48 texinfos to 13
+Reduced 8 texdatas to 7 (228 bytes to 162)
+Writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+reading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.prt
+LoadPortals: couldn't read c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+PREP OK
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+144 faces
+250139 square feet [36020148.00 square inches]
+29 Displacements
+48189 Square Feet [6939276.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 20/16384         240/196608   ( 0.1%) 
+brushsides             123/163840        984/1310720  ( 0.1%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes               297/65536        3564/786432   ( 0.5%) 
+nodes                  219/65536        7008/2097152  ( 0.3%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               29/0            5104/0        ( 0.0%) 
+disp_verts            2349/0           46980/0        ( 0.0%) 
+disp_tris             3712/0            7424/0        ( 0.0%) 
+disp_lmsamples      116032/0          116032/0        ( 0.0%) 
+faces                  144/65536        8064/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               70/65536        3920/3670016  ( 0.1%) 
+leaves                 221/65536        7072/2097152  ( 0.3%) 
+leaffaces              115/65536         230/131072   ( 0.2%) 
+leafbrushes             73/65536         146/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              887/512000       3548/2048000  ( 0.2%) 
+edges                  541/256000       2164/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/32768          50/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            69/65536         138/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      119264/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        2197/393216   ( 0.6%) 
+LDR ambient table      221/65536         884/262144   ( 0.3%) 
+HDR ambient table      221/65536         884/262144   ( 0.3%) 
+LDR leaf ambient       148/65536        4144/1835008  ( 0.2%) 
+HDR leaf ambient       221/65536        6188/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3960     ( 0.0%) 
+pakfile               [variable]      106138/0        ( 0.0%) 
+physics               [variable]        7545/4194304  ( 0.2%) 
+physics terrain       [variable]        2435/1048576  ( 0.2%) 
+
+Level flags = 0
+
+Total triangle count: 316
+Writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/linventif_admin_room_v2/nature/blendgrassgrass001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity color_correction (2762.22 -324.00 200.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7545 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 48 texinfos to 13
+Reduced 8 texdatas to 7 (228 bytes to 162)
+Writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+reading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.prt
+LoadPortals: couldn't read c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+PREP OK
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+144 faces
+250139 square feet [36020148.00 square inches]
+29 Displacements
+48189 Square Feet [6939276.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 20/16384         240/196608   ( 0.1%) 
+brushsides             123/163840        984/1310720  ( 0.1%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes               297/65536        3564/786432   ( 0.5%) 
+nodes                  219/65536        7008/2097152  ( 0.3%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos               29/0            5104/0        ( 0.0%) 
+disp_verts            2349/0           46980/0        ( 0.0%) 
+disp_tris             3712/0            7424/0        ( 0.0%) 
+disp_lmsamples      116032/0          116032/0        ( 0.0%) 
+faces                  144/65536        8064/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               70/65536        3920/3670016  ( 0.1%) 
+leaves                 221/65536        7072/2097152  ( 0.3%) 
+leaffaces              115/65536         230/131072   ( 0.2%) 
+leafbrushes             73/65536         146/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              887/512000       3548/2048000  ( 0.2%) 
+edges                  541/256000       2164/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/32768          50/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            69/65536         138/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      119264/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        2197/393216   ( 0.6%) 
+LDR ambient table      221/65536         884/262144   ( 0.3%) 
+HDR ambient table      221/65536         884/262144   ( 0.3%) 
+LDR leaf ambient       148/65536        4144/1835008  ( 0.2%) 
+HDR leaf ambient       221/65536        6188/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3960     ( 0.0%) 
+pakfile               [variable]      106138/0        ( 0.0%) 
+physics               [variable]        7545/4194304  ( 0.2%) 
+physics terrain       [variable]        2435/1048576  ( 0.2%) 
+
+Level flags = 0
+
+Total triangle count: 316
+Writing c:\users\linventif\documents\github\linventif-maps\admin room v2\vmf\linventif_admin_room_v2.bsp
+1 second elapsed

@@ -2,8 +2,8 @@
  
 Discord -> Linventif#1909
 
-Discord Server -> https://dsc.gg/kaiiolla
- 
+Discord Server -> https://dsc.gg/linventif
+
  
 Steam Profil -> https://steamcommunity.com/id/linventif/
 

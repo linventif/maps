@@ -32,8 +32,8 @@ world
 		side
 		{
 			"id" "1"
-			"plane" "(-128 1152 128) (128 1152 128) (128 896 128)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"plane" "(-128 128 0) (128 128 0) (128 -128 0)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -43,7 +43,7 @@ world
 		side
 		{
 			"id" "2"
-			"plane" "(-128 896 -128) (128 896 -128) (128 1152 -128)"
+			"plane" "(-128 -128 -8) (128 -128 -8) (128 128 -8)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -54,7 +54,7 @@ world
 		side
 		{
 			"id" "3"
-			"plane" "(-128 1152 128) (-128 896 128) (-128 896 -128)"
+			"plane" "(-128 128 0) (-128 -128 0) (-128 -128 -8)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -65,7 +65,7 @@ world
 		side
 		{
 			"id" "4"
-			"plane" "(128 1152 -128) (128 896 -128) (128 896 128)"
+			"plane" "(128 128 -8) (128 -128 -8) (128 -128 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -76,7 +76,7 @@ world
 		side
 		{
 			"id" "5"
-			"plane" "(128 1152 128) (-128 1152 128) (-128 1152 -128)"
+			"plane" "(128 128 0) (-128 128 0) (-128 128 -8)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -87,7 +87,7 @@ world
 		side
 		{
 			"id" "6"
-			"plane" "(128 896 -128) (-128 896 -128) (-128 896 128)"
+			"plane" "(128 -128 -8) (-128 -128 -8) (-128 -128 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -97,10 +97,24 @@ world
 		}
 		editor
 		{
-			"color" "0 223 140"
+			"color" "0 206 199"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
