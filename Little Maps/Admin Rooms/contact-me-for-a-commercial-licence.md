@@ -1,6 +1,6 @@
 # Linventif-Maps
 
-Discord -> Linventif#1909 
+Discord -> Linventif#1909
 
 Discord Server -> https://dsc.gg/linventif
 
