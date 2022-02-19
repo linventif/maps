@@ -1,0 +1,3633 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10421 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 16
+Reduced 6 texdatas to 6 (144 bytes to 144)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  28 portalclusters
+  56 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 784
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 28
+visdatasize:452  compressed from 448
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+205 faces
+163802 square feet [23587586.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+205 patches before subdivision
+13109 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1307717, max 299
+transfer lists:  10.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 31/16384         372/196608   ( 0.2%) 
+brushsides             194/163840       1552/1310720  ( 0.1%) 
+planes                  86/65536        1720/1310720  ( 0.1%) 
+vertexes               265/65536        3180/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  205/65536       11480/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              274/65536         548/131072   ( 0.4%) 
+leafbrushes            104/65536         208/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1062/512000       4248/2048000  ( 0.2%) 
+edges                  552/256000       2208/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           210/65536         420/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      372144/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         452/16777216 ( 0.0%) 
+entdata               [variable]         339/393216   ( 0.1%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        28/65536         784/1835008  ( 0.0%) 
+HDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105703/0        ( 0.0%) 
+physics               [variable]       10421/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 512
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+205 faces
+163802 square feet [23587586.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+205 patches before subdivision
+13109 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1307717, max 299
+transfer lists:  10.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 31/16384         372/196608   ( 0.2%) 
+brushsides             194/163840       1552/1310720  ( 0.1%) 
+planes                  86/65536        1720/1310720  ( 0.1%) 
+vertexes               265/65536        3180/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  205/65536       11480/3670016  ( 0.3%) 
+hdr faces              205/65536       11480/3670016  ( 0.3%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              274/65536         548/131072   ( 0.4%) 
+leafbrushes            104/65536         208/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1062/512000       4248/2048000  ( 0.2%) 
+edges                  552/256000       2208/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           210/65536         420/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      372144/0        ( 0.0%) 
+HDR lightdata         [variable]      372144/0        ( 0.0%) 
+visdata               [variable]         452/16777216 ( 0.0%) 
+entdata               [variable]         339/393216   ( 0.1%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        28/65536         784/1835008  ( 0.0%) 
+HDR leaf ambient        28/65536         784/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105703/0        ( 0.0%) 
+physics               [variable]       10421/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 512
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10373 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 16
+Reduced 6 texdatas to 6 (144 bytes to 144)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  26 portalclusters
+  48 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 644
+Average clusters visible: 24
+Building PAS...
+Average clusters audible: 26
+visdatasize:420  compressed from 416
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+201 faces
+161103 square feet [23198928.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+201 patches before subdivision
+13723 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1378972, max 303
+transfer lists:  10.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 31/16384         372/196608   ( 0.2%) 
+brushsides             194/163840       1552/1310720  ( 0.1%) 
+planes                  78/65536        1560/1310720  ( 0.1%) 
+vertexes               262/65536        3144/786432   ( 0.4%) 
+nodes                   83/65536        2656/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  201/65536       11256/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               38/65536        2128/3670016  ( 0.1%) 
+leaves                  85/65536        2720/2097152  ( 0.1%) 
+leaffaces              285/65536         570/131072   ( 0.4%) 
+leafbrushes            104/65536         208/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1056/512000       4224/2048000  ( 0.2%) 
+edges                  553/256000       2212/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             15/32768         150/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      365720/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         420/16777216 ( 0.0%) 
+entdata               [variable]         339/393216   ( 0.1%) 
+LDR ambient table       85/65536         340/262144   ( 0.1%) 
+HDR ambient table       85/65536         340/262144   ( 0.1%) 
+LDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+HDR leaf ambient        85/65536        2380/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105703/0        ( 0.0%) 
+physics               [variable]       10373/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 506
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+201 faces
+161103 square feet [23198928.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+201 patches before subdivision
+13723 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1378972, max 303
+transfer lists:  10.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 31/16384         372/196608   ( 0.2%) 
+brushsides             194/163840       1552/1310720  ( 0.1%) 
+planes                  78/65536        1560/1310720  ( 0.1%) 
+vertexes               262/65536        3144/786432   ( 0.4%) 
+nodes                   83/65536        2656/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  201/65536       11256/3670016  ( 0.3%) 
+hdr faces              201/65536       11256/3670016  ( 0.3%) 
+origfaces               38/65536        2128/3670016  ( 0.1%) 
+leaves                  85/65536        2720/2097152  ( 0.1%) 
+leaffaces              285/65536         570/131072   ( 0.4%) 
+leafbrushes            104/65536         208/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1056/512000       4224/2048000  ( 0.2%) 
+edges                  553/256000       2212/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             15/32768         150/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      365720/0        ( 0.0%) 
+HDR lightdata         [variable]      365720/0        ( 0.0%) 
+visdata               [variable]         420/16777216 ( 0.0%) 
+entdata               [variable]         339/393216   ( 0.1%) 
+LDR ambient table       85/65536         340/262144   ( 0.1%) 
+HDR ambient table       85/65536         340/262144   ( 0.1%) 
+LDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105703/0        ( 0.0%) 
+physics               [variable]       10373/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 506
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13706 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 29
+Reduced 11 texdatas to 10 (340 bytes to 270)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  26 portalclusters
+  50 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 650
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 26
+visdatasize:420  compressed from 416
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+219 faces
+163037 square feet [23477392.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+219 patches before subdivision
+14229 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1421542, max 304
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 40/16384         480/196608   ( 0.2%) 
+brushsides             258/163840       2064/1310720  ( 0.2%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes               297/65536        3564/786432   ( 0.5%) 
+nodes                   86/65536        2752/2097152  ( 0.1%) 
+texinfos                29/12288        2088/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  219/65536       12264/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               56/65536        3136/3670016  ( 0.1%) 
+leaves                  88/65536        2816/2097152  ( 0.1%) 
+leaffaces              290/65536         580/131072   ( 0.4%) 
+leafbrushes            123/65536         246/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1228/512000       4912/2048000  ( 0.2%) 
+edges                  674/256000       2696/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             19/32768         190/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           267/65536         534/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      415816/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         420/16777216 ( 0.0%) 
+entdata               [variable]         680/393216   ( 0.2%) 
+LDR ambient table       88/65536         352/262144   ( 0.1%) 
+HDR ambient table       88/65536         352/262144   ( 0.1%) 
+LDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+HDR leaf ambient        88/65536        2464/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/272      ( 0.4%) 
+pakfile               [variable]      211713/0        ( 0.0%) 
+physics               [variable]       13706/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 570
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+219 faces
+163037 square feet [23477392.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+219 patches before subdivision
+14229 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1421542, max 304
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 40/16384         480/196608   ( 0.2%) 
+brushsides             258/163840       2064/1310720  ( 0.2%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes               297/65536        3564/786432   ( 0.5%) 
+nodes                   86/65536        2752/2097152  ( 0.1%) 
+texinfos                29/12288        2088/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  219/65536       12264/3670016  ( 0.3%) 
+hdr faces              219/65536       12264/3670016  ( 0.3%) 
+origfaces               56/65536        3136/3670016  ( 0.1%) 
+leaves                  88/65536        2816/2097152  ( 0.1%) 
+leaffaces              290/65536         580/131072   ( 0.4%) 
+leafbrushes            123/65536         246/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1228/512000       4912/2048000  ( 0.2%) 
+edges                  674/256000       2696/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             19/32768         190/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           267/65536         534/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      415816/0        ( 0.0%) 
+HDR lightdata         [variable]      415816/0        ( 0.0%) 
+visdata               [variable]         420/16777216 ( 0.0%) 
+entdata               [variable]         680/393216   ( 0.2%) 
+LDR ambient table       88/65536         352/262144   ( 0.1%) 
+HDR ambient table       88/65536         352/262144   ( 0.1%) 
+LDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/272      ( 0.4%) 
+pakfile               [variable]      211713/0        ( 0.0%) 
+physics               [variable]       13706/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 570
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13706 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 29
+Reduced 11 texdatas to 10 (340 bytes to 270)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  26 portalclusters
+  50 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 650
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 26
+visdatasize:420  compressed from 416
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+219 faces
+163037 square feet [23477392.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+219 patches before subdivision
+14229 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1421542, max 304
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35407, 33392, 31734)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4084, 3327, 2946)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(529, 322, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(89, 34, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 40/16384         480/196608   ( 0.2%) 
+brushsides             258/163840       2064/1310720  ( 0.2%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes               297/65536        3564/786432   ( 0.5%) 
+nodes                   86/65536        2752/2097152  ( 0.1%) 
+texinfos                29/12288        2088/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  219/65536       12264/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               56/65536        3136/3670016  ( 0.1%) 
+leaves                  88/65536        2816/2097152  ( 0.1%) 
+leaffaces              290/65536         580/131072   ( 0.4%) 
+leafbrushes            123/65536         246/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1228/512000       4912/2048000  ( 0.2%) 
+edges                  674/256000       2696/1024000  ( 0.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             19/32768         190/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           267/65536         534/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      415816/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         420/16777216 ( 0.0%) 
+entdata               [variable]        1392/393216   ( 0.4%) 
+LDR ambient table       88/65536         352/262144   ( 0.1%) 
+HDR ambient table       88/65536         352/262144   ( 0.1%) 
+LDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+HDR leaf ambient        88/65536        2464/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/272      ( 0.4%) 
+pakfile               [variable]      211713/0        ( 0.0%) 
+physics               [variable]       13706/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 570
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+219 faces
+163037 square feet [23477392.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+219 patches before subdivision
+14229 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1421542, max 304
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35407, 33392, 31734)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4084, 3327, 2946)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(529, 322, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(89, 34, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0025 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 40/16384         480/196608   ( 0.2%) 
+brushsides             258/163840       2064/1310720  ( 0.2%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes               297/65536        3564/786432   ( 0.5%) 
+nodes                   86/65536        2752/2097152  ( 0.1%) 
+texinfos                29/12288        2088/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  219/65536       12264/3670016  ( 0.3%) 
+hdr faces              219/65536       12264/3670016  ( 0.3%) 
+origfaces               56/65536        3136/3670016  ( 0.1%) 
+leaves                  88/65536        2816/2097152  ( 0.1%) 
+leaffaces              290/65536         580/131072   ( 0.4%) 
+leafbrushes            123/65536         246/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1228/512000       4912/2048000  ( 0.2%) 
+edges                  674/256000       2696/1024000  ( 0.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          4/8192          352/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             19/32768         190/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           267/65536         534/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      415816/0        ( 0.0%) 
+HDR lightdata         [variable]      415816/0        ( 0.0%) 
+visdata               [variable]         420/16777216 ( 0.0%) 
+entdata               [variable]        1392/393216   ( 0.4%) 
+LDR ambient table       88/65536         352/262144   ( 0.1%) 
+HDR ambient table       88/65536         352/262144   ( 0.1%) 
+LDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+HDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/272      ( 0.4%) 
+pakfile               [variable]      211713/0        ( 0.0%) 
+physics               [variable]       13706/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 570
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13706 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 45 texinfos to 28
+Reduced 11 texdatas to 11 (293 bytes to 293)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  26 portalclusters
+  50 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 650
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 26
+visdatasize:420  compressed from 416
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+219 faces
+163037 square feet [23477392.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+219 patches before subdivision
+14229 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1421542, max 304
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35407, 33392, 31734)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4084, 3327, 2946)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(529, 322, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(89, 34, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 40/16384         480/196608   ( 0.2%) 
+brushsides             258/163840       2064/1310720  ( 0.2%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes               297/65536        3564/786432   ( 0.5%) 
+nodes                   86/65536        2752/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  219/65536       12264/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               56/65536        3136/3670016  ( 0.1%) 
+leaves                  88/65536        2816/2097152  ( 0.1%) 
+leaffaces              290/65536         580/131072   ( 0.4%) 
+leafbrushes            123/65536         246/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1228/512000       4912/2048000  ( 0.2%) 
+edges                  674/256000       2696/1024000  ( 0.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             19/32768         190/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           267/65536         534/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      413976/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         420/16777216 ( 0.0%) 
+entdata               [variable]        1390/393216   ( 0.4%) 
+LDR ambient table       88/65536         352/262144   ( 0.1%) 
+HDR ambient table       88/65536         352/262144   ( 0.1%) 
+LDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+HDR leaf ambient        88/65536        2464/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/272      ( 0.4%) 
+pakfile               [variable]      105703/0        ( 0.0%) 
+physics               [variable]       13706/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 570
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+219 faces
+163037 square feet [23477392.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+219 patches before subdivision
+14229 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1421542, max 304
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35407, 33392, 31734)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4084, 3327, 2946)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(529, 322, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(89, 34, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 40/16384         480/196608   ( 0.2%) 
+brushsides             258/163840       2064/1310720  ( 0.2%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes               297/65536        3564/786432   ( 0.5%) 
+nodes                   86/65536        2752/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  219/65536       12264/3670016  ( 0.3%) 
+hdr faces              219/65536       12264/3670016  ( 0.3%) 
+origfaces               56/65536        3136/3670016  ( 0.1%) 
+leaves                  88/65536        2816/2097152  ( 0.1%) 
+leaffaces              290/65536         580/131072   ( 0.4%) 
+leafbrushes            123/65536         246/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1228/512000       4912/2048000  ( 0.2%) 
+edges                  674/256000       2696/1024000  ( 0.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          4/8192          352/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             19/32768         190/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           267/65536         534/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      413976/0        ( 0.0%) 
+HDR lightdata         [variable]      413976/0        ( 0.0%) 
+visdata               [variable]         420/16777216 ( 0.0%) 
+entdata               [variable]        1390/393216   ( 0.4%) 
+LDR ambient table       88/65536         352/262144   ( 0.1%) 
+HDR ambient table       88/65536         352/262144   ( 0.1%) 
+LDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+HDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/272      ( 0.4%) 
+pakfile               [variable]      105703/0        ( 0.0%) 
+physics               [variable]       13706/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 570
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14522 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 53 texinfos to 32
+Reduced 11 texdatas to 11 (293 bytes to 293)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  30 portalclusters
+  57 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.25%)
+Total clusters visible: 788
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 30
+visdatasize:484  compressed from 480
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+233 faces
+163138 square feet [23491872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+233 patches before subdivision
+13965 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1402892, max 303
+transfer lists:  10.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35124, 33085, 31432)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4062, 3294, 2912)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(531, 320, 264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(90, 33, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 42/16384         504/196608   ( 0.3%) 
+brushsides             270/163840       2160/1310720  ( 0.2%) 
+planes                 128/65536        2560/1310720  ( 0.2%) 
+vertexes               319/65536        3828/786432   ( 0.5%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                32/12288        2304/884736   ( 0.3%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  233/65536       13048/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               63/65536        3528/3670016  ( 0.1%) 
+leaves                  96/65536        3072/2097152  ( 0.1%) 
+leaffaces              307/65536         614/131072   ( 0.5%) 
+leafbrushes            124/65536         248/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1338/512000       5352/2048000  ( 0.3%) 
+edges                  740/256000       2960/1024000  ( 0.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             23/32768         230/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           336/65536         672/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      421744/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         484/16777216 ( 0.0%) 
+entdata               [variable]        1390/393216   ( 0.4%) 
+LDR ambient table       96/65536         384/262144   ( 0.1%) 
+HDR ambient table       96/65536         384/262144   ( 0.1%) 
+LDR leaf ambient       419/65536       11732/1835008  ( 0.6%) 
+HDR leaf ambient        96/65536        2688/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/272      ( 0.4%) 
+pakfile               [variable]      105703/0        ( 0.0%) 
+physics               [variable]       14522/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 624
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+233 faces
+163138 square feet [23491872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+233 patches before subdivision
+13965 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1402892, max 303
+transfer lists:  10.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35124, 33085, 31432)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4062, 3294, 2912)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(531, 320, 264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(90, 33, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 42/16384         504/196608   ( 0.3%) 
+brushsides             270/163840       2160/1310720  ( 0.2%) 
+planes                 128/65536        2560/1310720  ( 0.2%) 
+vertexes               319/65536        3828/786432   ( 0.5%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                32/12288        2304/884736   ( 0.3%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  233/65536       13048/3670016  ( 0.4%) 
+hdr faces              233/65536       13048/3670016  ( 0.4%) 
+origfaces               63/65536        3528/3670016  ( 0.1%) 
+leaves                  96/65536        3072/2097152  ( 0.1%) 
+leaffaces              307/65536         614/131072   ( 0.5%) 
+leafbrushes            124/65536         248/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1338/512000       5352/2048000  ( 0.3%) 
+edges                  740/256000       2960/1024000  ( 0.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          4/8192          352/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             23/32768         230/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           336/65536         672/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      421744/0        ( 0.0%) 
+HDR lightdata         [variable]      421744/0        ( 0.0%) 
+visdata               [variable]         484/16777216 ( 0.0%) 
+entdata               [variable]        1390/393216   ( 0.4%) 
+LDR ambient table       96/65536         384/262144   ( 0.1%) 
+HDR ambient table       96/65536         384/262144   ( 0.1%) 
+LDR leaf ambient       419/65536       11732/1835008  ( 0.6%) 
+HDR leaf ambient       419/65536       11732/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/272      ( 0.4%) 
+pakfile               [variable]      105703/0        ( 0.0%) 
+physics               [variable]       14522/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 624
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15346 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 58 texinfos to 36
+Reduced 14 texdatas to 13 (404 bytes to 345)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  32 portalclusters
+  63 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 894
+Average clusters visible: 27
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+238 faces
+163138 square feet [23491872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+238 patches before subdivision
+13974 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1414093, max 306
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37459, 33191, 31560)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4474, 3309, 2938)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(599, 322, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(96, 34, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 45/16384         540/196608   ( 0.3%) 
+brushsides             296/163840       2368/1310720  ( 0.2%) 
+planes                 134/65536        2680/1310720  ( 0.2%) 
+vertexes               326/65536        3912/786432   ( 0.5%) 
+nodes                  101/65536        3232/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  238/65536       13328/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               66/65536        3696/3670016  ( 0.1%) 
+leaves                 103/65536        3296/2097152  ( 0.2%) 
+leaffaces              312/65536         624/131072   ( 0.5%) 
+leafbrushes            132/65536         264/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1372/512000       5488/2048000  ( 0.3%) 
+edges                  756/256000       3024/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             25/32768         250/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           363/65536         726/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2215/393216   ( 0.6%) 
+LDR ambient table      103/65536         412/262144   ( 0.2%) 
+HDR ambient table      103/65536         412/262144   ( 0.2%) 
+LDR leaf ambient       445/65536       12460/1835008  ( 0.7%) 
+HDR leaf ambient       103/65536        2884/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      211680/0        ( 0.0%) 
+physics               [variable]       15346/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 636
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+238 faces
+163138 square feet [23491872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+238 patches before subdivision
+13974 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1414093, max 306
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37459, 33190, 31560)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4474, 3309, 2938)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(599, 322, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(96, 34, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0030 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 45/16384         540/196608   ( 0.3%) 
+brushsides             296/163840       2368/1310720  ( 0.2%) 
+planes                 134/65536        2680/1310720  ( 0.2%) 
+vertexes               326/65536        3912/786432   ( 0.5%) 
+nodes                  101/65536        3232/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  238/65536       13328/3670016  ( 0.4%) 
+hdr faces              238/65536       13328/3670016  ( 0.4%) 
+origfaces               66/65536        3696/3670016  ( 0.1%) 
+leaves                 103/65536        3296/2097152  ( 0.2%) 
+leaffaces              312/65536         624/131072   ( 0.5%) 
+leafbrushes            132/65536         264/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1372/512000       5488/2048000  ( 0.3%) 
+edges                  756/256000       3024/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          9/8192          792/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             25/32768         250/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           363/65536         726/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397532/0        ( 0.0%) 
+HDR lightdata         [variable]      397532/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2215/393216   ( 0.6%) 
+LDR ambient table      103/65536         412/262144   ( 0.2%) 
+HDR ambient table      103/65536         412/262144   ( 0.2%) 
+LDR leaf ambient       445/65536       12460/1835008  ( 0.7%) 
+HDR leaf ambient       445/65536       12460/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      211680/0        ( 0.0%) 
+physics               [variable]       15346/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 636
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15346 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 58 texinfos to 36
+Reduced 14 texdatas to 13 (404 bytes to 345)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  32 portalclusters
+  63 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 894
+Average clusters visible: 27
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+238 faces
+163138 square feet [23491872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+238 patches before subdivision
+13974 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1414093, max 306
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37459, 33190, 31560)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4474, 3309, 2938)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(599, 322, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(96, 34, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 45/16384         540/196608   ( 0.3%) 
+brushsides             296/163840       2368/1310720  ( 0.2%) 
+planes                 134/65536        2680/1310720  ( 0.2%) 
+vertexes               326/65536        3912/786432   ( 0.5%) 
+nodes                  101/65536        3232/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  238/65536       13328/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               66/65536        3696/3670016  ( 0.1%) 
+leaves                 103/65536        3296/2097152  ( 0.2%) 
+leaffaces              312/65536         624/131072   ( 0.5%) 
+leafbrushes            132/65536         264/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1372/512000       5488/2048000  ( 0.3%) 
+edges                  756/256000       3024/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             25/32768         250/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           363/65536         726/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2215/393216   ( 0.6%) 
+LDR ambient table      103/65536         412/262144   ( 0.2%) 
+HDR ambient table      103/65536         412/262144   ( 0.2%) 
+LDR leaf ambient       445/65536       12460/1835008  ( 0.7%) 
+HDR leaf ambient       103/65536        2884/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      211680/0        ( 0.0%) 
+physics               [variable]       15346/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 636
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+238 faces
+163138 square feet [23491872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+238 patches before subdivision
+13974 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1414093, max 306
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37459, 33191, 31560)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4474, 3309, 2938)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(599, 322, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(96, 34, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 45/16384         540/196608   ( 0.3%) 
+brushsides             296/163840       2368/1310720  ( 0.2%) 
+planes                 134/65536        2680/1310720  ( 0.2%) 
+vertexes               326/65536        3912/786432   ( 0.5%) 
+nodes                  101/65536        3232/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  238/65536       13328/3670016  ( 0.4%) 
+hdr faces              238/65536       13328/3670016  ( 0.4%) 
+origfaces               66/65536        3696/3670016  ( 0.1%) 
+leaves                 103/65536        3296/2097152  ( 0.2%) 
+leaffaces              312/65536         624/131072   ( 0.5%) 
+leafbrushes            132/65536         264/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1372/512000       5488/2048000  ( 0.3%) 
+edges                  756/256000       3024/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          9/8192          792/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             25/32768         250/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           363/65536         726/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397532/0        ( 0.0%) 
+HDR lightdata         [variable]      397532/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2215/393216   ( 0.6%) 
+LDR ambient table      103/65536         412/262144   ( 0.2%) 
+HDR ambient table      103/65536         412/262144   ( 0.2%) 
+LDR leaf ambient       445/65536       12460/1835008  ( 0.7%) 
+HDR leaf ambient       445/65536       12460/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      211680/0        ( 0.0%) 
+physics               [variable]       15346/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 636
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15346 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 58 texinfos to 36
+Reduced 14 texdatas to 13 (404 bytes to 345)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  32 portalclusters
+  63 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 894
+Average clusters visible: 27
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+238 faces
+163138 square feet [23491872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+238 patches before subdivision
+13974 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1414093, max 306
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(39762, 33188, 31559)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4960, 3309, 2938)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(713, 322, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(121, 34, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(23, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 45/16384         540/196608   ( 0.3%) 
+brushsides             296/163840       2368/1310720  ( 0.2%) 
+planes                 134/65536        2680/1310720  ( 0.2%) 
+vertexes               326/65536        3912/786432   ( 0.5%) 
+nodes                  101/65536        3232/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  238/65536       13328/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               66/65536        3696/3670016  ( 0.1%) 
+leaves                 103/65536        3296/2097152  ( 0.2%) 
+leaffaces              312/65536         624/131072   ( 0.5%) 
+leafbrushes            132/65536         264/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1372/512000       5488/2048000  ( 0.3%) 
+edges                  756/256000       3024/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             25/32768         250/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           363/65536         726/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2215/393216   ( 0.6%) 
+LDR ambient table      103/65536         412/262144   ( 0.2%) 
+HDR ambient table      103/65536         412/262144   ( 0.2%) 
+LDR leaf ambient       450/65536       12600/1835008  ( 0.7%) 
+HDR leaf ambient       103/65536        2884/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      211680/0        ( 0.0%) 
+physics               [variable]       15346/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 636
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+238 faces
+163138 square feet [23491872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+238 patches before subdivision
+13974 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1414093, max 306
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(39762, 33188, 31559)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4960, 3309, 2938)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(713, 322, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(121, 34, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(23, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 45/16384         540/196608   ( 0.3%) 
+brushsides             296/163840       2368/1310720  ( 0.2%) 
+planes                 134/65536        2680/1310720  ( 0.2%) 
+vertexes               326/65536        3912/786432   ( 0.5%) 
+nodes                  101/65536        3232/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  238/65536       13328/3670016  ( 0.4%) 
+hdr faces              238/65536       13328/3670016  ( 0.4%) 
+origfaces               66/65536        3696/3670016  ( 0.1%) 
+leaves                 103/65536        3296/2097152  ( 0.2%) 
+leaffaces              312/65536         624/131072   ( 0.5%) 
+leafbrushes            132/65536         264/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1372/512000       5488/2048000  ( 0.3%) 
+edges                  756/256000       3024/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          9/8192          792/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             25/32768         250/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           363/65536         726/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397532/0        ( 0.0%) 
+HDR lightdata         [variable]      397532/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2215/393216   ( 0.6%) 
+LDR ambient table      103/65536         412/262144   ( 0.2%) 
+HDR ambient table      103/65536         412/262144   ( 0.2%) 
+LDR leaf ambient       450/65536       12600/1835008  ( 0.7%) 
+HDR leaf ambient       450/65536       12600/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      211680/0        ( 0.0%) 
+physics               [variable]       15346/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 636
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15346 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 35
+Reduced 13 texdatas to 12 (381 bytes to 322)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  32 portalclusters
+  63 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 894
+Average clusters visible: 27
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+239 faces
+163138 square feet [23491872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+239 patches before subdivision
+13951 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1413259, max 307
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36683, 33294, 32222)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3881, 3344, 3120)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(411, 328, 295)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(47, 35, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 45/16384         540/196608   ( 0.3%) 
+brushsides             296/163840       2368/1310720  ( 0.2%) 
+planes                 134/65536        2680/1310720  ( 0.2%) 
+vertexes               329/65536        3948/786432   ( 0.5%) 
+nodes                  101/65536        3232/2097152  ( 0.2%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  239/65536       13384/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               65/65536        3640/3670016  ( 0.1%) 
+leaves                 103/65536        3296/2097152  ( 0.2%) 
+leaffaces              315/65536         630/131072   ( 0.5%) 
+leafbrushes            132/65536         264/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1376/512000       5504/2048000  ( 0.3%) 
+edges                  757/256000       3028/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             25/32768         250/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           363/65536         726/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      399232/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2215/393216   ( 0.6%) 
+LDR ambient table      103/65536         412/262144   ( 0.2%) 
+HDR ambient table      103/65536         412/262144   ( 0.2%) 
+LDR leaf ambient       441/65536       12348/1835008  ( 0.7%) 
+HDR leaf ambient       103/65536        2884/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      211680/0        ( 0.0%) 
+physics               [variable]       15346/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 642
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+239 faces
+163138 square feet [23491872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+239 patches before subdivision
+13951 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1413259, max 307
+transfer lists:  10.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36683, 33294, 32222)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3881, 3344, 3120)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(411, 328, 295)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(47, 35, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 45/16384         540/196608   ( 0.3%) 
+brushsides             296/163840       2368/1310720  ( 0.2%) 
+planes                 134/65536        2680/1310720  ( 0.2%) 
+vertexes               329/65536        3948/786432   ( 0.5%) 
+nodes                  101/65536        3232/2097152  ( 0.2%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  239/65536       13384/3670016  ( 0.4%) 
+hdr faces              239/65536       13384/3670016  ( 0.4%) 
+origfaces               65/65536        3640/3670016  ( 0.1%) 
+leaves                 103/65536        3296/2097152  ( 0.2%) 
+leaffaces              315/65536         630/131072   ( 0.5%) 
+leafbrushes            132/65536         264/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1376/512000       5504/2048000  ( 0.3%) 
+edges                  757/256000       3028/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          9/8192          792/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             25/32768         250/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           363/65536         726/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      399232/0        ( 0.0%) 
+HDR lightdata         [variable]      399232/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2215/393216   ( 0.6%) 
+LDR ambient table      103/65536         412/262144   ( 0.2%) 
+HDR ambient table      103/65536         412/262144   ( 0.2%) 
+LDR leaf ambient       441/65536       12348/1835008  ( 0.7%) 
+HDR leaf ambient       441/65536       12348/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      211680/0        ( 0.0%) 
+physics               [variable]       15346/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 642
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14842 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 55 texinfos to 35
+Reduced 12 texdatas to 11 (356 bytes to 297)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  26 portalclusters
+  50 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 650
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 26
+visdatasize:420  compressed from 416
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+225 faces
+162655 square feet [23422352.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+225 patches before subdivision
+13979 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1403216, max 304
+transfer lists:  10.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36913, 33505, 32423)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3910, 3369, 3143)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(413, 330, 297)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 44/16384         528/196608   ( 0.3%) 
+brushsides             290/163840       2320/1310720  ( 0.2%) 
+planes                 122/65536        2440/1310720  ( 0.2%) 
+vertexes               299/65536        3588/786432   ( 0.5%) 
+nodes                   86/65536        2752/2097152  ( 0.1%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  225/65536       12600/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               62/65536        3472/3670016  ( 0.1%) 
+leaves                  88/65536        2816/2097152  ( 0.1%) 
+leaffaces              296/65536         592/131072   ( 0.5%) 
+leafbrushes            131/65536         262/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1264/512000       5056/2048000  ( 0.2%) 
+edges                  691/256000       2764/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           216/65536         432/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      389152/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         420/16777216 ( 0.0%) 
+entdata               [variable]        2215/393216   ( 0.6%) 
+LDR ambient table       88/65536         352/262144   ( 0.1%) 
+HDR ambient table       88/65536         352/262144   ( 0.1%) 
+LDR leaf ambient       406/65536       11368/1835008  ( 0.6%) 
+HDR leaf ambient        88/65536        2464/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      211680/0        ( 0.0%) 
+physics               [variable]       14842/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 570
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+225 faces
+162655 square feet [23422352.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+225 patches before subdivision
+13979 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1403216, max 304
+transfer lists:  10.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36913, 33505, 32423)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3910, 3369, 3143)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(413, 330, 297)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 44/16384         528/196608   ( 0.3%) 
+brushsides             290/163840       2320/1310720  ( 0.2%) 
+planes                 122/65536        2440/1310720  ( 0.2%) 
+vertexes               299/65536        3588/786432   ( 0.5%) 
+nodes                   86/65536        2752/2097152  ( 0.1%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  225/65536       12600/3670016  ( 0.3%) 
+hdr faces              225/65536       12600/3670016  ( 0.3%) 
+origfaces               62/65536        3472/3670016  ( 0.1%) 
+leaves                  88/65536        2816/2097152  ( 0.1%) 
+leaffaces              296/65536         592/131072   ( 0.5%) 
+leafbrushes            131/65536         262/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1264/512000       5056/2048000  ( 0.2%) 
+edges                  691/256000       2764/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          9/8192          792/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           216/65536         432/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      389152/0        ( 0.0%) 
+HDR lightdata         [variable]      389152/0        ( 0.0%) 
+visdata               [variable]         420/16777216 ( 0.0%) 
+entdata               [variable]        2215/393216   ( 0.6%) 
+LDR ambient table       88/65536         352/262144   ( 0.1%) 
+HDR ambient table       88/65536         352/262144   ( 0.1%) 
+LDR leaf ambient       406/65536       11368/1835008  ( 0.6%) 
+HDR leaf ambient       406/65536       11368/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      211680/0        ( 0.0%) 
+physics               [variable]       14842/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 570
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+***need to set $abovewater for material cstrike/materials/nature/water_ati_beneath
+***need to set $abovewater for material cstrike/materials/nature/water_ati_beneath
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...error: material CSTRIKE/MATERIALS/NATURE/WATER_ATI_BENEATH doesn't have a $bottommaterial
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18999 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 87 texinfos to 46
+Reduced 13 texdatas to 11 (405 bytes to 289)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  39 portalclusters
+  77 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.34%)
+Total clusters visible: 1175
+Average clusters visible: 30
+Building PAS...
+Average clusters audible: 39
+visdatasize:710  compressed from 624
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+271 faces
+162762 square feet [23437852.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+271 patches before subdivision
+14233 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1439536, max 307
+transfer lists:  11.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37080, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3931, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 55/16384         660/196608   ( 0.3%) 
+brushsides             348/163840       2784/1310720  ( 0.2%) 
+planes                 142/65536        2840/1310720  ( 0.2%) 
+vertexes               363/65536        4356/786432   ( 0.6%) 
+nodes                  114/65536        3648/2097152  ( 0.2%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  271/65536       15176/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               76/65536        4256/3670016  ( 0.1%) 
+leaves                 116/65536        3712/2097152  ( 0.2%) 
+leaffaces              385/65536         770/131072   ( 0.6%) 
+leafbrushes            154/65536         308/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1532/512000       6128/2048000  ( 0.3%) 
+edges                  865/256000       3460/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             23/32768         230/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           306/65536         612/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      400504/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         710/16777216 ( 0.0%) 
+entdata               [variable]        2317/393216   ( 0.6%) 
+LDR ambient table      116/65536         464/262144   ( 0.2%) 
+HDR ambient table      116/65536         464/262144   ( 0.2%) 
+LDR leaf ambient       529/65536       14812/1835008  ( 0.8%) 
+HDR leaf ambient       116/65536        3248/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      106086/0        ( 0.0%) 
+physics               [variable]       18999/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 690
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+271 faces
+162762 square feet [23437852.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+271 patches before subdivision
+14233 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1439536, max 307
+transfer lists:  11.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37080, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3931, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 55/16384         660/196608   ( 0.3%) 
+brushsides             348/163840       2784/1310720  ( 0.2%) 
+planes                 142/65536        2840/1310720  ( 0.2%) 
+vertexes               363/65536        4356/786432   ( 0.6%) 
+nodes                  114/65536        3648/2097152  ( 0.2%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  271/65536       15176/3670016  ( 0.4%) 
+hdr faces              271/65536       15176/3670016  ( 0.4%) 
+origfaces               76/65536        4256/3670016  ( 0.1%) 
+leaves                 116/65536        3712/2097152  ( 0.2%) 
+leaffaces              385/65536         770/131072   ( 0.6%) 
+leafbrushes            154/65536         308/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1532/512000       6128/2048000  ( 0.3%) 
+edges                  865/256000       3460/1024000  ( 0.3%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          9/8192          792/720896   ( 0.1%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             23/32768         230/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           306/65536         612/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      400504/0        ( 0.0%) 
+HDR lightdata         [variable]      400504/0        ( 0.0%) 
+visdata               [variable]         710/16777216 ( 0.0%) 
+entdata               [variable]        2317/393216   ( 0.6%) 
+LDR ambient table      116/65536         464/262144   ( 0.2%) 
+HDR ambient table      116/65536         464/262144   ( 0.2%) 
+LDR leaf ambient       529/65536       14812/1835008  ( 0.8%) 
+HDR leaf ambient       529/65536       14812/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]      106086/0        ( 0.0%) 
+physics               [variable]       18999/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 690
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18362 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 83 texinfos to 44
+Reduced 11 texdatas to 10 (286 bytes to 246)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  38 portalclusters
+  77 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.27%)
+Total clusters visible: 1103
+Average clusters visible: 29
+Building PAS...
+Average clusters audible: 38
+visdatasize:692  compressed from 608
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+262 faces
+162637 square feet [23419832.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+262 patches before subdivision
+14184 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1434484, max 307
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37089, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3932, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 54/16384         648/196608   ( 0.3%) 
+brushsides             342/163840       2736/1310720  ( 0.2%) 
+planes                 140/65536        2800/1310720  ( 0.2%) 
+vertexes               354/65536        4248/786432   ( 0.5%) 
+nodes                  109/65536        3488/2097152  ( 0.2%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  262/65536       14672/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               75/65536        4200/3670016  ( 0.1%) 
+leaves                 111/65536        3552/2097152  ( 0.2%) 
+leaffaces              372/65536         744/131072   ( 0.6%) 
+leafbrushes            145/65536         290/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1491/512000       5964/2048000  ( 0.3%) 
+edges                  838/256000       3352/1024000  ( 0.3%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             21/32768         210/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           282/65536         564/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      402400/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         692/16777216 ( 0.0%) 
+entdata               [variable]        2386/393216   ( 0.6%) 
+LDR ambient table      111/65536         444/262144   ( 0.2%) 
+HDR ambient table      111/65536         444/262144   ( 0.2%) 
+LDR leaf ambient       522/65536       14616/1835008  ( 0.8%) 
+HDR leaf ambient       111/65536        3108/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/682      ( 0.1%) 
+pakfile               [variable]      105703/0        ( 0.0%) 
+physics               [variable]       18362/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 671
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+262 faces
+162637 square feet [23419832.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+262 patches before subdivision
+14184 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1434484, max 307
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37089, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3932, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 54/16384         648/196608   ( 0.3%) 
+brushsides             342/163840       2736/1310720  ( 0.2%) 
+planes                 140/65536        2800/1310720  ( 0.2%) 
+vertexes               354/65536        4248/786432   ( 0.5%) 
+nodes                  109/65536        3488/2097152  ( 0.2%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  262/65536       14672/3670016  ( 0.4%) 
+hdr faces              262/65536       14672/3670016  ( 0.4%) 
+origfaces               75/65536        4200/3670016  ( 0.1%) 
+leaves                 111/65536        3552/2097152  ( 0.2%) 
+leaffaces              372/65536         744/131072   ( 0.6%) 
+leafbrushes            145/65536         290/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1491/512000       5964/2048000  ( 0.3%) 
+edges                  838/256000       3352/1024000  ( 0.3%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights         10/8192          880/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             21/32768         210/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           282/65536         564/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      402400/0        ( 0.0%) 
+HDR lightdata         [variable]      402400/0        ( 0.0%) 
+visdata               [variable]         692/16777216 ( 0.0%) 
+entdata               [variable]        2386/393216   ( 0.6%) 
+LDR ambient table      111/65536         444/262144   ( 0.2%) 
+HDR ambient table      111/65536         444/262144   ( 0.2%) 
+LDR leaf ambient       522/65536       14616/1835008  ( 0.8%) 
+HDR leaf ambient       522/65536       14616/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/682      ( 0.1%) 
+pakfile               [variable]      105703/0        ( 0.0%) 
+physics               [variable]       18362/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 671
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...material "nature/water_riverbed01_beneath" not found.
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18871 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 83 texinfos to 46
+Reduced 13 texdatas to 12 (422 bytes to 343)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  37 portalclusters
+  76 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.36%)
+Total clusters visible: 1123
+Average clusters visible: 30
+Building PAS...
+Average clusters audible: 37
+visdatasize:671  compressed from 592
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+257 faces
+162757 square feet [23437034.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+257 patches before subdivision
+14117 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1428805, max 307
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37079, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3931, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 55/16384         660/196608   ( 0.3%) 
+brushsides             349/163840       2792/1310720  ( 0.2%) 
+planes                 140/65536        2800/1310720  ( 0.2%) 
+vertexes               346/65536        4152/786432   ( 0.5%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  257/65536       14392/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               76/65536        4256/3670016  ( 0.1%) 
+leaves                 112/65536        3584/2097152  ( 0.2%) 
+leaffaces              366/65536         732/131072   ( 0.6%) 
+leafbrushes            149/65536         298/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1474/512000       5896/2048000  ( 0.3%) 
+edges                  824/256000       3296/1024000  ( 0.3%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             20/32768         200/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           270/65536         540/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397824/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         671/16777216 ( 0.0%) 
+entdata               [variable]        2535/393216   ( 0.6%) 
+LDR ambient table      112/65536         448/262144   ( 0.2%) 
+HDR ambient table      112/65536         448/262144   ( 0.2%) 
+LDR leaf ambient       526/65536       14728/1835008  ( 0.8%) 
+HDR leaf ambient       112/65536        3136/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/682      ( 0.1%) 
+pakfile               [variable]      106095/0        ( 0.0%) 
+physics               [variable]       18871/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 660
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+257 faces
+162757 square feet [23437034.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+257 patches before subdivision
+14117 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1428805, max 307
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37079, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3931, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0025 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 55/16384         660/196608   ( 0.3%) 
+brushsides             349/163840       2792/1310720  ( 0.2%) 
+planes                 140/65536        2800/1310720  ( 0.2%) 
+vertexes               346/65536        4152/786432   ( 0.5%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  257/65536       14392/3670016  ( 0.4%) 
+hdr faces              257/65536       14392/3670016  ( 0.4%) 
+origfaces               76/65536        4256/3670016  ( 0.1%) 
+leaves                 112/65536        3584/2097152  ( 0.2%) 
+leaffaces              366/65536         732/131072   ( 0.6%) 
+leafbrushes            149/65536         298/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1474/512000       5896/2048000  ( 0.3%) 
+edges                  824/256000       3296/1024000  ( 0.3%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights         10/8192          880/720896   ( 0.1%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             20/32768         200/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           270/65536         540/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397824/0        ( 0.0%) 
+HDR lightdata         [variable]      397824/0        ( 0.0%) 
+visdata               [variable]         671/16777216 ( 0.0%) 
+entdata               [variable]        2535/393216   ( 0.6%) 
+LDR ambient table      112/65536         448/262144   ( 0.2%) 
+HDR ambient table      112/65536         448/262144   ( 0.2%) 
+LDR leaf ambient       526/65536       14728/1835008  ( 0.8%) 
+HDR leaf ambient       526/65536       14728/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/682      ( 0.1%) 
+pakfile               [variable]      106095/0        ( 0.0%) 
+physics               [variable]       18871/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 660
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...material "nature/water_riverbed01_beneath" not found.
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18871 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 83 texinfos to 46
+Reduced 13 texdatas to 12 (422 bytes to 343)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  37 portalclusters
+  76 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.36%)
+Total clusters visible: 1123
+Average clusters visible: 30
+Building PAS...
+Average clusters audible: 37
+visdatasize:671  compressed from 592
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+257 faces
+162757 square feet [23437034.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+257 patches before subdivision
+14117 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1428805, max 307
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37079, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3931, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 55/16384         660/196608   ( 0.3%) 
+brushsides             349/163840       2792/1310720  ( 0.2%) 
+planes                 140/65536        2800/1310720  ( 0.2%) 
+vertexes               346/65536        4152/786432   ( 0.5%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  257/65536       14392/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               76/65536        4256/3670016  ( 0.1%) 
+leaves                 112/65536        3584/2097152  ( 0.2%) 
+leaffaces              366/65536         732/131072   ( 0.6%) 
+leafbrushes            149/65536         298/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1474/512000       5896/2048000  ( 0.3%) 
+edges                  824/256000       3296/1024000  ( 0.3%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             20/32768         200/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           270/65536         540/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397824/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         671/16777216 ( 0.0%) 
+entdata               [variable]        2535/393216   ( 0.6%) 
+LDR ambient table      112/65536         448/262144   ( 0.2%) 
+HDR ambient table      112/65536         448/262144   ( 0.2%) 
+LDR leaf ambient       526/65536       14728/1835008  ( 0.8%) 
+HDR leaf ambient       112/65536        3136/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/682      ( 0.1%) 
+pakfile               [variable]      106095/0        ( 0.0%) 
+physics               [variable]       18871/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 660
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+257 faces
+162757 square feet [23437034.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+257 patches before subdivision
+14117 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1428805, max 307
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37079, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3931, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 55/16384         660/196608   ( 0.3%) 
+brushsides             349/163840       2792/1310720  ( 0.2%) 
+planes                 140/65536        2800/1310720  ( 0.2%) 
+vertexes               346/65536        4152/786432   ( 0.5%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  257/65536       14392/3670016  ( 0.4%) 
+hdr faces              257/65536       14392/3670016  ( 0.4%) 
+origfaces               76/65536        4256/3670016  ( 0.1%) 
+leaves                 112/65536        3584/2097152  ( 0.2%) 
+leaffaces              366/65536         732/131072   ( 0.6%) 
+leafbrushes            149/65536         298/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1474/512000       5896/2048000  ( 0.3%) 
+edges                  824/256000       3296/1024000  ( 0.3%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights         10/8192          880/720896   ( 0.1%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             20/32768         200/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           270/65536         540/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397824/0        ( 0.0%) 
+HDR lightdata         [variable]      397824/0        ( 0.0%) 
+visdata               [variable]         671/16777216 ( 0.0%) 
+entdata               [variable]        2535/393216   ( 0.6%) 
+LDR ambient table      112/65536         448/262144   ( 0.2%) 
+HDR ambient table      112/65536         448/262144   ( 0.2%) 
+LDR leaf ambient       526/65536       14728/1835008  ( 0.8%) 
+HDR leaf ambient       526/65536       14728/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/682      ( 0.1%) 
+pakfile               [variable]      106095/0        ( 0.0%) 
+physics               [variable]       18871/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 660
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...material "nature/water_riverbed01_beneath" not found.
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18607 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 83 texinfos to 46
+Reduced 13 texdatas to 12 (422 bytes to 343)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  36 portalclusters
+  74 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.27%)
+Total clusters visible: 1099
+Average clusters visible: 30
+Building PAS...
+Average clusters audible: 36
+visdatasize:653  compressed from 576
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+257 faces
+162757 square feet [23437034.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+257 patches before subdivision
+14117 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1428805, max 307
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37079, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3931, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 54/16384         648/196608   ( 0.3%) 
+brushsides             343/163840       2744/1310720  ( 0.2%) 
+planes                 140/65536        2800/1310720  ( 0.2%) 
+vertexes               345/65536        4140/786432   ( 0.5%) 
+nodes                  109/65536        3488/2097152  ( 0.2%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  257/65536       14392/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               76/65536        4256/3670016  ( 0.1%) 
+leaves                 111/65536        3552/2097152  ( 0.2%) 
+leaffaces              364/65536         728/131072   ( 0.6%) 
+leafbrushes            148/65536         296/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1474/512000       5896/2048000  ( 0.3%) 
+edges                  824/256000       3296/1024000  ( 0.3%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             20/32768         200/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           270/65536         540/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397824/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         653/16777216 ( 0.0%) 
+entdata               [variable]        2535/393216   ( 0.6%) 
+LDR ambient table      111/65536         444/262144   ( 0.2%) 
+HDR ambient table      111/65536         444/262144   ( 0.2%) 
+LDR leaf ambient       525/65536       14700/1835008  ( 0.8%) 
+HDR leaf ambient       111/65536        3108/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/682      ( 0.1%) 
+pakfile               [variable]      106095/0        ( 0.0%) 
+physics               [variable]       18607/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 660
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+257 faces
+162757 square feet [23437034.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+257 patches before subdivision
+14117 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1428805, max 307
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37079, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3931, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 54/16384         648/196608   ( 0.3%) 
+brushsides             343/163840       2744/1310720  ( 0.2%) 
+planes                 140/65536        2800/1310720  ( 0.2%) 
+vertexes               345/65536        4140/786432   ( 0.5%) 
+nodes                  109/65536        3488/2097152  ( 0.2%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  257/65536       14392/3670016  ( 0.4%) 
+hdr faces              257/65536       14392/3670016  ( 0.4%) 
+origfaces               76/65536        4256/3670016  ( 0.1%) 
+leaves                 111/65536        3552/2097152  ( 0.2%) 
+leaffaces              364/65536         728/131072   ( 0.6%) 
+leafbrushes            148/65536         296/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1474/512000       5896/2048000  ( 0.3%) 
+edges                  824/256000       3296/1024000  ( 0.3%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights         10/8192          880/720896   ( 0.1%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             20/32768         200/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           270/65536         540/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      397824/0        ( 0.0%) 
+HDR lightdata         [variable]      397824/0        ( 0.0%) 
+visdata               [variable]         653/16777216 ( 0.0%) 
+entdata               [variable]        2535/393216   ( 0.6%) 
+LDR ambient table      111/65536         444/262144   ( 0.2%) 
+HDR ambient table      111/65536         444/262144   ( 0.2%) 
+LDR leaf ambient       525/65536       14700/1835008  ( 0.8%) 
+HDR leaf ambient       525/65536       14700/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/682      ( 0.1%) 
+pakfile               [variable]      106095/0        ( 0.0%) 
+physics               [variable]       18607/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 660
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...material "nature/water_riverbed01_beneath" not found.
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18703 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 84 texinfos to 47
+Reduced 13 texdatas to 12 (422 bytes to 343)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.prt
+  36 portalclusters
+  73 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.38%)
+Total clusters visible: 1062
+Average clusters visible: 29
+Building PAS...
+Average clusters audible: 36
+visdatasize:653  compressed from 576
+writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+257 faces
+162720 square feet [23431708.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+257 patches before subdivision
+14129 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1429435, max 307
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37078, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3931, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 54/16384         648/196608   ( 0.3%) 
+brushsides             342/163840       2736/1310720  ( 0.2%) 
+planes                 140/65536        2800/1310720  ( 0.2%) 
+vertexes               345/65536        4140/786432   ( 0.5%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  257/65536       14392/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               76/65536        4256/3670016  ( 0.1%) 
+leaves                 112/65536        3584/2097152  ( 0.2%) 
+leaffaces              360/65536         720/131072   ( 0.5%) 
+leafbrushes            147/65536         294/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1472/512000       5888/2048000  ( 0.3%) 
+edges                  828/256000       3312/1024000  ( 0.3%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             21/32768         210/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           282/65536         564/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      398096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         653/16777216 ( 0.0%) 
+entdata               [variable]        2535/393216   ( 0.6%) 
+LDR ambient table      112/65536         448/262144   ( 0.2%) 
+HDR ambient table      112/65536         448/262144   ( 0.2%) 
+LDR leaf ambient       518/65536       14504/1835008  ( 0.8%) 
+HDR leaf ambient       112/65536        3136/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/682      ( 0.1%) 
+pakfile               [variable]      106095/0        ( 0.0%) 
+physics               [variable]       18703/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 658
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+PREP OK
+257 faces
+162720 square feet [23431708.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+257 patches before subdivision
+14129 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1429435, max 307
+transfer lists:  10.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37078, 33640, 32551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3931, 3387, 3160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 332, 299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 35, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 54/16384         648/196608   ( 0.3%) 
+brushsides             342/163840       2736/1310720  ( 0.2%) 
+planes                 140/65536        2800/1310720  ( 0.2%) 
+vertexes               345/65536        4140/786432   ( 0.5%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  257/65536       14392/3670016  ( 0.4%) 
+hdr faces              257/65536       14392/3670016  ( 0.4%) 
+origfaces               76/65536        4256/3670016  ( 0.1%) 
+leaves                 112/65536        3584/2097152  ( 0.2%) 
+leaffaces              360/65536         720/131072   ( 0.5%) 
+leafbrushes            147/65536         294/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1472/512000       5888/2048000  ( 0.3%) 
+edges                  828/256000       3312/1024000  ( 0.3%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights         10/8192          880/720896   ( 0.1%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             21/32768         210/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           282/65536         564/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      398096/0        ( 0.0%) 
+HDR lightdata         [variable]      398096/0        ( 0.0%) 
+visdata               [variable]         653/16777216 ( 0.0%) 
+entdata               [variable]        2535/393216   ( 0.6%) 
+LDR ambient table      112/65536         448/262144   ( 0.2%) 
+HDR ambient table      112/65536         448/262144   ( 0.2%) 
+LDR leaf ambient       518/65536       14504/1835008  ( 0.8%) 
+HDR leaf ambient       518/65536       14504/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/682      ( 0.1%) 
+pakfile               [variable]      106095/0        ( 0.0%) 
+physics               [variable]       18703/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 658
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\event rooms\vmf\linv_envents_rooms.bsp
+2 seconds elapsed
