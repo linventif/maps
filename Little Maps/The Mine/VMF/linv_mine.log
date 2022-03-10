@@ -3018,3 +3018,1315 @@ reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\
 1471 portalclusters
 4615 numportals
 0...1...2...3...4...5...6...7...8...9...100
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (332187 bytes)
+WARNING! model "models/props_foliage/mall_bush02.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_buildings/watertower_001a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1759 texinfos to 1408
+Reduced 59 texdatas to 46 (2144 bytes to 1596)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+2 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt
+1471 portalclusters
+4615 numportals
+0...1...2...3...4...5...6...7...8...9...100
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+No vis information, direct lighting only.
+4888 faces
+1451227 square feet [208976800.00 square inches]
+402 Displacements
+391175 Square Feet [56329280.00 Square Inches]
+109 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0236 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                889/16384       10668/196608   ( 5.4%) 
+brushsides            8616/163840      68928/1310720  ( 5.3%) 
+planes                2532/65536       50640/1310720  ( 3.9%) 
+vertexes              7232/65536       86784/786432   (11.0%) 
+nodes                 2995/65536       95840/2097152  ( 4.6%) 
+texinfos              1408/12288      101376/884736   (11.5%) 
+texdata                 46/2048         1472/65536    ( 2.2%) 
+dispinfos              402/0           70752/0        ( 0.0%) 
+disp_verts           12122/0          242440/0        ( 0.0%) 
+disp_tris            16416/0           32832/0        ( 0.0%) 
+disp_lmsamples      723800/0          723800/0        ( 0.0%) 
+faces                 4888/65536      273728/3670016  ( 7.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2161/65536      121016/3670016  ( 3.3%) 
+leaves                2997/65536       95904/2097152  ( 4.6%) 
+leaffaces             5735/65536       11470/131072   ( 8.8%) 
+leafbrushes           3944/65536        7888/131072   ( 6.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            30468/512000     121872/2048000  ( 6.0%) 
+edges                17108/256000      68432/1024000  ( 6.7%) 
+LDR worldlights        109/8192         9592/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            509/32768        5090/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8457/65536       16914/131072   (12.9%) 
+cubemapsamples           4/1024           64/16384    ( 0.4%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     9834232/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       64968/393216   (16.5%) 
+LDR ambient table     2997/65536       11988/262144   ( 4.6%) 
+HDR ambient table     2997/65536       11988/262144   ( 4.6%) 
+LDR leaf ambient      8286/65536      232008/1835008  (12.6%) 
+HDR leaf ambient      2997/65536       83916/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14568    ( 0.0%) 
+pakfile               [variable]      536096/0        ( 0.0%) 
+physics               [variable]      332187/4194304  ( 7.9%) 
+physics terrain       [variable]       88270/1048576  ( 8.4%) 
+
+Level flags = 0
+
+Total triangle count: 12040
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+6 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+No vis information, direct lighting only.
+4888 faces
+1451227 square feet [208976800.00 square inches]
+402 Displacements
+391175 Square Feet [56329280.00 Square Inches]
+109 direct lights
+0
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (311678 bytes)
+WARNING! model "models/props_foliage/mall_bush02.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_buildings/watertower_001a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1661 texinfos to 1315
+Reduced 57 texdatas to 45 (2010 bytes to 1541)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+2 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt
+1317 portalclusters
+4073 numportals
+0...1...2...3...4...5...6...7...8...9...100
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17863 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 110 texinfos to 51
+Reduced 17 texdatas to 16 (381 bytes to 335)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt
+ 148 portalclusters
+ 386 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.02%)
+Total clusters visible: 17918
+Average clusters visible: 121
+Building PAS...
+Average clusters audible: 148
+visdatasize:6921  compressed from 7104
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+931 faces
+1194611 square feet [172024048.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+931 patches before subdivision
+58549 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14486762, max 852
+transfer lists: 110.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0160 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 48/16384         576/196608   ( 0.3%) 
+brushsides             317/163840       2536/1310720  ( 0.2%) 
+planes                 230/65536        4600/1310720  ( 0.4%) 
+vertexes              1182/65536       14184/786432   ( 1.8%) 
+nodes                  390/65536       12480/2097152  ( 0.6%) 
+texinfos                51/12288        3672/884736   ( 0.4%) 
+texdata                 16/2048          512/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  931/65536       52136/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               83/65536        4648/3670016  ( 0.1%) 
+leaves                 392/65536       12544/2097152  ( 0.6%) 
+leaffaces              997/65536        1994/131072   ( 1.5%) 
+leafbrushes            307/65536         614/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4353/512000      17412/2048000  ( 0.9%) 
+edges                 2347/256000       9388/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             20/32768         200/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           300/65536         600/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1891956/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6921/16777216 ( 0.0%) 
+entdata               [variable]         340/393216   ( 0.1%) 
+LDR ambient table      392/65536        1568/262144   ( 0.6%) 
+HDR ambient table      392/65536        1568/262144   ( 0.6%) 
+LDR leaf ambient       148/65536        4144/1835008  ( 0.2%) 
+HDR leaf ambient       392/65536       10976/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211569/0        ( 0.0%) 
+physics               [variable]       17863/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2156
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+931 faces
+1194611 square feet [172024048.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+931 patches before subdivision
+58549 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14486762, max 852
+transfer lists: 110.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0170 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 48/16384         576/196608   ( 0.3%) 
+brushsides             317/163840       2536/1310720  ( 0.2%) 
+planes                 230/65536        4600/1310720  ( 0.4%) 
+vertexes              1182/65536       14184/786432   ( 1.8%) 
+nodes                  390/65536       12480/2097152  ( 0.6%) 
+texinfos                51/12288        3672/884736   ( 0.4%) 
+texdata                 16/2048          512/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  931/65536       52136/3670016  ( 1.4%) 
+hdr faces              931/65536       52136/3670016  ( 1.4%) 
+origfaces               83/65536        4648/3670016  ( 0.1%) 
+leaves                 392/65536       12544/2097152  ( 0.6%) 
+leaffaces              997/65536        1994/131072   ( 1.5%) 
+leafbrushes            307/65536         614/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4353/512000      17412/2048000  ( 0.9%) 
+edges                 2347/256000       9388/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             20/32768         200/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           300/65536         600/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1891956/0        ( 0.0%) 
+HDR lightdata         [variable]     1891956/0        ( 0.0%) 
+visdata               [variable]        6921/16777216 ( 0.0%) 
+entdata               [variable]         340/393216   ( 0.1%) 
+LDR ambient table      392/65536        1568/262144   ( 0.6%) 
+HDR ambient table      392/65536        1568/262144   ( 0.6%) 
+LDR leaf ambient       148/65536        4144/1835008  ( 0.2%) 
+HDR leaf ambient       148/65536        4144/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211569/0        ( 0.0%) 
+physics               [variable]       17863/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2156
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+2 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6304.0 8192.0 656.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6816.0 8192.0 656.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6304.0 8192.0 1856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6816.0 8192.0 1856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 7680.0 1152.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 6656.0 1152.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6656.0 5120.0 1152.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 5632.0 1152.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17863 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 113 texinfos to 54
+Reduced 19 texdatas to 18 (413 bytes to 367)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt
+LoadPortals: couldn't read c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+No vis information, direct lighting only.
+919 faces
+1194611 square feet [172024048.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0129 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 49/16384         588/196608   ( 0.3%) 
+brushsides             323/163840       2584/1310720  ( 0.2%) 
+planes                 232/65536        4640/1310720  ( 0.4%) 
+vertexes              1436/65536       17232/786432   ( 2.2%) 
+nodes                  750/65536       24000/2097152  ( 1.1%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  919/65536       51464/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               88/65536        4928/3670016  ( 0.1%) 
+leaves                 752/65536       24064/2097152  ( 1.1%) 
+leaffaces              986/65536        1972/131072   ( 1.5%) 
+leafbrushes            267/65536         534/131072   ( 0.4%) 
+areas                    1/1024            8/8192     ( 0.1%) 
+surfedges             4296/512000      17184/2048000  ( 0.8%) 
+edges                 2312/256000       9248/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             29/32768         290/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           480/65536         960/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1933828/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         241/393216   ( 0.1%) 
+LDR ambient table      752/65536        3008/262144   ( 1.1%) 
+HDR ambient table      752/65536        3008/262144   ( 1.1%) 
+LDR leaf ambient       482/65536       13496/1835008  ( 0.7%) 
+HDR leaf ambient       752/65536       21056/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211569/0        ( 0.0%) 
+physics               [variable]       17863/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2102
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+No vis information, direct lighting only.
+919 faces
+1194611 square feet [172024048.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0135 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 49/16384         588/196608   ( 0.3%) 
+brushsides             323/163840       2584/1310720  ( 0.2%) 
+planes                 232/65536        4640/1310720  ( 0.4%) 
+vertexes              1436/65536       17232/786432   ( 2.2%) 
+nodes                  750/65536       24000/2097152  ( 1.1%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  919/65536       51464/3670016  ( 1.4%) 
+hdr faces              919/65536       51464/3670016  ( 1.4%) 
+origfaces               88/65536        4928/3670016  ( 0.1%) 
+leaves                 752/65536       24064/2097152  ( 1.1%) 
+leaffaces              986/65536        1972/131072   ( 1.5%) 
+leafbrushes            267/65536         534/131072   ( 0.4%) 
+areas                    1/1024            8/8192     ( 0.1%) 
+surfedges             4296/512000      17184/2048000  ( 0.8%) 
+edges                 2312/256000       9248/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             29/32768         290/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           480/65536         960/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1933828/0        ( 0.0%) 
+HDR lightdata         [variable]     1933828/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         241/393216   ( 0.1%) 
+LDR ambient table      752/65536        3008/262144   ( 1.1%) 
+HDR ambient table      752/65536        3008/262144   ( 1.1%) 
+LDR leaf ambient       482/65536       13496/1835008  ( 0.7%) 
+HDR leaf ambient       482/65536       13496/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211569/0        ( 0.0%) 
+physics               [variable]       17863/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2102
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 706 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (252343 bytes)
+WARNING! model "models/props_foliage/mall_bush02.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_buildings/watertower_001a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1530 texinfos to 1187
+Reduced 55 texdatas to 45 (1846 bytes to 1541)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+1 second elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt
+ 214 portalclusters
+ 670 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 9 visible clusters (0.02%)
+Total clusters visible: 41327
+Average clusters visible: 193
+Building PAS...
+Average clusters audible: 214
+visdatasize:13335  compressed from 13696
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+2889 faces
+2 degenerate faces
+1422776 square feet [204879856.00 square inches]
+221 Displacements
+342216 Square Feet [49279136.00 Square Inches]
+2887 patches before subdivision
+93205 patches after subdivision
+81 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12652307, max 851
+transfer lists:  96.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(111929, 81071, 45549)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10662, 5472, 2569)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1260, 521, 289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(177, 70, 43)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 11, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0283 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                694/16384        8328/196608   ( 4.2%) 
+brushsides            6927/163840      55416/1310720  ( 4.2%) 
+planes                2518/65536       50360/1310720  ( 3.8%) 
+vertexes              4364/65536       52368/786432   ( 6.7%) 
+nodes                  457/65536       14624/2097152  ( 0.7%) 
+texinfos              1187/12288       85464/884736   ( 9.7%) 
+texdata                 45/2048         1440/65536    ( 2.2%) 
+dispinfos              221/0           38896/0        ( 0.0%) 
+disp_verts            7597/0          151940/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      581896/0          581896/0        ( 0.0%) 
+faces                 2889/65536      161784/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1710/65536       95760/3670016  ( 2.6%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             3550/65536        7100/131072   ( 5.4%) 
+leafbrushes           1447/65536        2894/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20618/512000      82472/2048000  ( 4.0%) 
+edges                11959/256000      47836/1024000  ( 4.7%) 
+LDR worldlights         81/8192         7128/720896   ( 1.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            459/32768        4590/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8625/65536       17250/131072   (13.2%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     7676472/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13335/16777216 ( 0.1%) 
+entdata               [variable]       49517/393216   (12.6%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient      2477/65536       69356/1835008  ( 3.8%) 
+HDR leaf ambient       459/65536       12852/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/13932    ( 0.0%) 
+pakfile               [variable]      428887/0        ( 0.0%) 
+physics               [variable]      252343/4194304  ( 6.0%) 
+physics terrain       [variable]       50579/1048576  ( 4.8%) 
+
+Level flags = 0
+
+Total triangle count: 7989
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+2889 faces
+2 degenerate faces
+1422776 square feet [204879856.00 square inches]
+221 Displacements
+342216 Square Feet [49279136.00 Square Inches]
+2887 patches before subdivision
+93205 patches after subdivision
+81 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12652307, max 851
+transfer lists:  96.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(111930, 81072, 45549)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10662, 5472, 2569)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1260, 521, 289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(177, 70, 43)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 11, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0308 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                694/16384        8328/196608   ( 4.2%) 
+brushsides            6927/163840      55416/1310720  ( 4.2%) 
+planes                2518/65536       50360/1310720  ( 3.8%) 
+vertexes              4364/65536       52368/786432   ( 6.7%) 
+nodes                  457/65536       14624/2097152  ( 0.7%) 
+texinfos              1187/12288       85464/884736   ( 9.7%) 
+texdata                 45/2048         1440/65536    ( 2.2%) 
+dispinfos              221/0           38896/0        ( 0.0%) 
+disp_verts            7597/0          151940/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      581896/0          581896/0        ( 0.0%) 
+faces                 2889/65536      161784/3670016  ( 4.4%) 
+hdr faces             2889/65536      161784/3670016  ( 4.4%) 
+origfaces             1710/65536       95760/3670016  ( 2.6%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             3550/65536        7100/131072   ( 5.4%) 
+leafbrushes           1447/65536        2894/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20618/512000      82472/2048000  ( 4.0%) 
+edges                11959/256000      47836/1024000  ( 4.7%) 
+LDR worldlights         81/8192         7128/720896   ( 1.0%) 
+HDR worldlights         81/8192         7128/720896   ( 1.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            459/32768        4590/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8625/65536       17250/131072   (13.2%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     7676472/0        ( 0.0%) 
+HDR lightdata         [variable]     7676472/0        ( 0.0%) 
+visdata               [variable]       13335/16777216 ( 0.1%) 
+entdata               [variable]       49517/393216   (12.6%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient      2477/65536       69356/1835008  ( 3.8%) 
+HDR leaf ambient      2477/65536       69356/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/13932    ( 0.0%) 
+pakfile               [variable]      428887/0        ( 0.0%) 
+physics               [variable]      252343/4194304  ( 6.0%) 
+physics terrain       [variable]       50579/1048576  ( 4.8%) 
+
+Level flags = 0
+
+Total triangle count: 7989
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 706 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (252343 bytes)
+WARNING! model "models/props_foliage/mall_bush02.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_buildings/watertower_001a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1530 texinfos to 1187
+Reduced 55 texdatas to 45 (1846 bytes to 1541)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+1 second elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt
+ 214 portalclusters
+ 670 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 9 visible clusters (0.02%)
+Total clusters visible: 41327
+Average clusters visible: 193
+Building PAS...
+Average clusters audible: 214
+visdatasize:13335  compressed from 13696
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+2889 faces
+2 degenerate faces
+1422776 square feet [204879856.00 square inches]
+221 Displacements
+342216 Square Feet [49279136.00 Square Inches]
+2887 patches before subdivision
+93205 patches after subdivision
+69 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12644946, max 851
+transfer lists:  96.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(111927, 81071, 45549)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10662, 5472, 2569)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1260, 521, 289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(177, 70, 43)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 11, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0283 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                694/16384        8328/196608   ( 4.2%) 
+brushsides            6927/163840      55416/1310720  ( 4.2%) 
+planes                2518/65536       50360/1310720  ( 3.8%) 
+vertexes              4364/65536       52368/786432   ( 6.7%) 
+nodes                  457/65536       14624/2097152  ( 0.7%) 
+texinfos              1187/12288       85464/884736   ( 9.7%) 
+texdata                 45/2048         1440/65536    ( 2.2%) 
+dispinfos              221/0           38896/0        ( 0.0%) 
+disp_verts            7597/0          151940/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      581896/0          581896/0        ( 0.0%) 
+faces                 2889/65536      161784/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1710/65536       95760/3670016  ( 2.6%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             3550/65536        7100/131072   ( 5.4%) 
+leafbrushes           1447/65536        2894/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20618/512000      82472/2048000  ( 4.0%) 
+edges                11959/256000      47836/1024000  ( 4.7%) 
+LDR worldlights         69/8192         6072/720896   ( 0.8%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            459/32768        4590/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8625/65536       17250/131072   (13.2%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     7669856/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13335/16777216 ( 0.1%) 
+entdata               [variable]       40889/393216   (10.4%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient      2477/65536       69356/1835008  ( 3.8%) 
+HDR leaf ambient       459/65536       12852/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/13932    ( 0.0%) 
+pakfile               [variable]      428887/0        ( 0.0%) 
+physics               [variable]      252343/4194304  ( 6.0%) 
+physics terrain       [variable]       50579/1048576  ( 4.8%) 
+
+Level flags = 0
+
+Total triangle count: 7989
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+2889 faces
+2 degenerate faces
+1422776 square feet [204879856.00 square inches]
+221 Displacements
+342216 Square Feet [49279136.00 Square Inches]
+2887 patches before subdivision
+93205 patches after subdivision
+69 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12644946, max 851
+transfer lists:  96.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(111928, 81071, 45549)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10662, 5472, 2569)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1260, 521, 289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(177, 70, 43)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 11, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0299 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                694/16384        8328/196608   ( 4.2%) 
+brushsides            6927/163840      55416/1310720  ( 4.2%) 
+planes                2518/65536       50360/1310720  ( 3.8%) 
+vertexes              4364/65536       52368/786432   ( 6.7%) 
+nodes                  457/65536       14624/2097152  ( 0.7%) 
+texinfos              1187/12288       85464/884736   ( 9.7%) 
+texdata                 45/2048         1440/65536    ( 2.2%) 
+dispinfos              221/0           38896/0        ( 0.0%) 
+disp_verts            7597/0          151940/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      581896/0          581896/0        ( 0.0%) 
+faces                 2889/65536      161784/3670016  ( 4.4%) 
+hdr faces             2889/65536      161784/3670016  ( 4.4%) 
+origfaces             1710/65536       95760/3670016  ( 2.6%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             3550/65536        7100/131072   ( 5.4%) 
+leafbrushes           1447/65536        2894/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20618/512000      82472/2048000  ( 4.0%) 
+edges                11959/256000      47836/1024000  ( 4.7%) 
+LDR worldlights         69/8192         6072/720896   ( 0.8%) 
+HDR worldlights         69/8192         6072/720896   ( 0.8%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            459/32768        4590/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8625/65536       17250/131072   (13.2%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     7669856/0        ( 0.0%) 
+HDR lightdata         [variable]     7669856/0        ( 0.0%) 
+visdata               [variable]       13335/16777216 ( 0.1%) 
+entdata               [variable]       40889/393216   (10.4%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient      2477/65536       69356/1835008  ( 3.8%) 
+HDR leaf ambient      2477/65536       69356/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/13932    ( 0.0%) 
+pakfile               [variable]      428887/0        ( 0.0%) 
+physics               [variable]      252343/4194304  ( 6.0%) 
+physics terrain       [variable]       50579/1048576  ( 4.8%) 
+
+Level flags = 0
+
+Total triangle count: 7989
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 706 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (252343 bytes)
+WARNING! model "models/props_foliage/mall_bush02.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_buildings/watertower_001a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1530 texinfos to 1187
+Reduced 55 texdatas to 45 (1846 bytes to 1541)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+1 second elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.prt
+ 214 portalclusters
+ 670 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 9 visible clusters (0.02%)
+Total clusters visible: 41327
+Average clusters visible: 193
+Building PAS...
+Average clusters audible: 214
+visdatasize:13335  compressed from 13696
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+2889 faces
+2 degenerate faces
+1422776 square feet [204879856.00 square inches]
+221 Displacements
+342216 Square Feet [49279136.00 Square Inches]
+2887 patches before subdivision
+93205 patches after subdivision
+69 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12644946, max 851
+transfer lists:  96.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(111928, 81071, 45549)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10662, 5472, 2569)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1260, 521, 289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(177, 70, 43)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 11, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0280 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                694/16384        8328/196608   ( 4.2%) 
+brushsides            6927/163840      55416/1310720  ( 4.2%) 
+planes                2518/65536       50360/1310720  ( 3.8%) 
+vertexes              4364/65536       52368/786432   ( 6.7%) 
+nodes                  457/65536       14624/2097152  ( 0.7%) 
+texinfos              1187/12288       85464/884736   ( 9.7%) 
+texdata                 45/2048         1440/65536    ( 2.2%) 
+dispinfos              221/0           38896/0        ( 0.0%) 
+disp_verts            7597/0          151940/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      581896/0          581896/0        ( 0.0%) 
+faces                 2889/65536      161784/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1710/65536       95760/3670016  ( 2.6%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             3550/65536        7100/131072   ( 5.4%) 
+leafbrushes           1447/65536        2894/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20618/512000      82472/2048000  ( 4.0%) 
+edges                11959/256000      47836/1024000  ( 4.7%) 
+LDR worldlights         69/8192         6072/720896   ( 0.8%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            459/32768        4590/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8625/65536       17250/131072   (13.2%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     7669856/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13335/16777216 ( 0.1%) 
+entdata               [variable]       43549/393216   (11.1%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient      2477/65536       69356/1835008  ( 3.8%) 
+HDR leaf ambient       459/65536       12852/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/13932    ( 0.0%) 
+pakfile               [variable]      428887/0        ( 0.0%) 
+physics               [variable]      252343/4194304  ( 6.0%) 
+physics terrain       [variable]       50579/1048576  ( 4.8%) 
+
+Level flags = 0
+
+Total triangle count: 7989
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+2889 faces
+2 degenerate faces
+1422776 square feet [204879856.00 square inches]
+221 Displacements
+342216 Square Feet [49279136.00 Square Inches]
+2887 patches before subdivision
+93205 patches after subdivision
+69 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12644946, max 851
+transfer lists:  96.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(111927, 81070, 45549)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10662, 5472, 2569)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1260, 521, 289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(177, 70, 43)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 11, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0298 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                694/16384        8328/196608   ( 4.2%) 
+brushsides            6927/163840      55416/1310720  ( 4.2%) 
+planes                2518/65536       50360/1310720  ( 3.8%) 
+vertexes              4364/65536       52368/786432   ( 6.7%) 
+nodes                  457/65536       14624/2097152  ( 0.7%) 
+texinfos              1187/12288       85464/884736   ( 9.7%) 
+texdata                 45/2048         1440/65536    ( 2.2%) 
+dispinfos              221/0           38896/0        ( 0.0%) 
+disp_verts            7597/0          151940/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      581896/0          581896/0        ( 0.0%) 
+faces                 2889/65536      161784/3670016  ( 4.4%) 
+hdr faces             2889/65536      161784/3670016  ( 4.4%) 
+origfaces             1710/65536       95760/3670016  ( 2.6%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             3550/65536        7100/131072   ( 5.4%) 
+leafbrushes           1447/65536        2894/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20618/512000      82472/2048000  ( 4.0%) 
+edges                11959/256000      47836/1024000  ( 4.7%) 
+LDR worldlights         69/8192         6072/720896   ( 0.8%) 
+HDR worldlights         69/8192         6072/720896   ( 0.8%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            459/32768        4590/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8625/65536       17250/131072   (13.2%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     7669856/0        ( 0.0%) 
+HDR lightdata         [variable]     7669856/0        ( 0.0%) 
+visdata               [variable]       13335/16777216 ( 0.1%) 
+entdata               [variable]       43549/393216   (11.1%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient      2477/65536       69356/1835008  ( 3.8%) 
+HDR leaf ambient      2477/65536       69356/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/13932    ( 0.0%) 
+pakfile               [variable]      428887/0        ( 0.0%) 
+physics               [variable]      252343/4194304  ( 6.0%) 
+physics terrain       [variable]       50579/1048576  ( 4.8%) 
+
+Level flags = 0
+
+Total triangle count: 7989
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine.bsp
+8 seconds elapsed
