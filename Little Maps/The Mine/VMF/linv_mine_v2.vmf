@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9174"
-	"mapversion" "312"
+	"mapversion" "316"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "312"
+	"mapversion" "316"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -68808,82 +68808,6 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	solid
-	{
-		"id" "157323"
-		side
-		{
-			"id" "57057"
-			"plane" "(1008 7728 576) (1040 7728 576) (1040 7696 576)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "57058"
-			"plane" "(1008 7696 512) (1040 7696 512) (1040 7728 512)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "57059"
-			"plane" "(1008 7728 576) (1008 7696 576) (1008 7696 512)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "57060"
-			"plane" "(1040 7728 512) (1040 7696 512) (1040 7696 576)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "57061"
-			"plane" "(1040 7728 576) (1008 7728 576) (1008 7728 512)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "57062"
-			"plane" "(1040 7696 512) (1008 7696 512) (1008 7696 576)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 131 176"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	group
 	{
 		"id" "26092"
@@ -80616,7 +80540,7 @@ entity
 {
 	"id" "79868"
 	"classname" "light_environment"
-	"_ambient" "255 255 255 50"
+	"_ambient" "255 255 255 100"
 	"_ambientHDR" "-1 -1 -1 1"
 	"_AmbientScaleHDR" "1"
 	"_light" "255 255 255 150"
@@ -125764,65 +125688,6 @@ entity
 			"rotation" "0"
 			"lightmapscale" "42"
 			"smoothing_groups" "0"
-			dispinfo
-			{
-				"power" "2"
-				"startposition" "[3008 11808 672]"
-				"flags" "0"
-				"elevation" "0"
-				"subdiv" "0"
-				normals
-				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-				}
-				distances
-				{
-					"row0" "0 0 0 0 0"
-					"row1" "0 0 0 0 0"
-					"row2" "0 0 0 0 0"
-					"row3" "0 0 0 0 0"
-					"row4" "0 0 0 0 0"
-				}
-				offsets
-				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-				}
-				offset_normals
-				{
-					"row0" "-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0"
-					"row1" "-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0"
-					"row2" "-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0"
-					"row3" "-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0"
-					"row4" "-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0"
-				}
-				alphas
-				{
-					"row0" "0 0 0 0 0"
-					"row1" "0 0 0 0 0"
-					"row2" "0 0 0 0 0"
-					"row3" "0 0 0 0 0"
-					"row4" "0 0 0 0 0"
-				}
-				triangle_tags
-				{
-					"row0" "0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0"
-				}
-				allowed_verts
-				{
-					"10" "-1 -1 -1 -1 -1 -1 -1 -1 -1 -1"
-				}
-			}
 		}
 		side
 		{
@@ -128031,6 +127896,51 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "159572"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "255 255 255"
+	"color2" "240 110 0"
+	"effect" "2"
+	"fadein" "0.2"
+	"fadeout" "1"
+	"fxtime" "0.25"
+	"holdtime" "5"
+	"message" "Map created by : Linventif"
+	"spawnflags" "1"
+	"targetname" "lin_txt"
+	"x" "-1"
+	"y" "-1"
+	"origin" "997.986 7113.38 520"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "159574"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "lin_txt_logic"
+	connections
+	{
+		"OnSpawn" "lin_txt,Display,,0,-1"
+	}
+	"origin" "997.986 7153.38 520"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
 	}
 }
 cameras
