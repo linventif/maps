@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9174"
-	"mapversion" "300"
+	"mapversion" "312"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,19 +32,25 @@ visgroups
 		"visgroupid" "18"
 		"color" "224 145 246"
 	}
+	visgroup
+	{
+		"name" "dev"
+		"visgroupid" "21"
+		"color" "116 101 218"
+	}
 }
 viewsettings
 {
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "1"
 }
 world
 {
 	"id" "1"
-	"mapversion" "300"
+	"mapversion" "312"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -33928,8 +33934,8 @@ world
 			"id" "34183"
 			"plane" "(1376 9184 1360) (1376 9216 1360) (6624 9216 1360)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 4"
+			"vaxis" "[0 -1 0 44] 4"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -34357,8 +34363,8 @@ world
 			"id" "34234"
 			"plane" "(1376 9184 1360) (1376 9184 928) (672 9184 928)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -20] 0.25"
+			"uaxis" "[1 0 0 0] 4"
+			"vaxis" "[0 0 -1 44] 4"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -34500,8 +34506,8 @@ world
 			"id" "34277"
 			"plane" "(3200 9216 2304) (3200 9216 1360) (3200 9184 1360)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -16] 0.08"
-			"vaxis" "[0 0 -1 44] 0.25"
+			"uaxis" "[0 1 0 0] 4"
+			"vaxis" "[0 0 -1 44] 4"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -34874,8 +34880,8 @@ world
 			"id" "53678"
 			"plane" "(1376 9216 512) (1376 6144 512) (1376 6144 928)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 44] 0.25"
+			"uaxis" "[0 -1 0 0] 4"
+			"vaxis" "[0 0 -1 44] 4"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -35149,8 +35155,8 @@ world
 			"id" "53734"
 			"plane" "(672 6144 928) (672 9216 928) (1376 9216 928)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[1 0 0 44] 0.25"
+			"uaxis" "[0 -1 0 0] 4"
+			"vaxis" "[1 0 0 44] 4"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -68590,8 +68596,8 @@ world
 			"id" "56977"
 			"plane" "(3232 9216 1392) (3232 15584 1392) (6624 15584 1392)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 4"
+			"vaxis" "[0 1 0 44] 4"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -68623,8 +68629,8 @@ world
 			"id" "56974"
 			"plane" "(3232 9216 1392) (6624 9216 1392) (6624 9216 1360)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 1 -0.00341797] 0.25"
+			"uaxis" "[1 0 0 0] 4"
+			"vaxis" "[0 0 1 44] 4"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -68656,8 +68662,8 @@ world
 			"id" "56984"
 			"plane" "(3232 9216 2304) (3232 9216 1360) (3200 9216 1360)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 16.0313] 0.08"
-			"vaxis" "[0 0 -1 44] 0.25"
+			"uaxis" "[1 0 0 0] 4"
+			"vaxis" "[0 0 -1 44] 4"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -68678,8 +68684,8 @@ world
 			"id" "56982"
 			"plane" "(3232 15584 2304) (3232 15584 1360) (3232 9216 1360)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -0.0078125] 0.25"
-			"vaxis" "[0 0 -1 44] 0.25"
+			"uaxis" "[0 1 0 0] 4"
+			"vaxis" "[0 0 -1 44] 4"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -70246,7 +70252,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 0 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -70704,7 +70710,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 0 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -70795,7 +70801,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 0 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -70886,7 +70892,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 0 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -70977,7 +70983,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 0 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -71068,7 +71074,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 0 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -71159,7 +71165,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 0 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -71292,7 +71298,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 90 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -71383,7 +71389,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 90 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -71474,7 +71480,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 180 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -71565,7 +71571,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 180 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -71656,7 +71662,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 180 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -71747,7 +71753,7 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 180 0"
 	"gmod_allowphysgun" "0"
-	"HDRColorScale" "0.2"
+	"HDRColorScale" "0.6"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
@@ -126647,7 +126653,7 @@ entity
 	editor
 	{
 		"color" "0 180 0"
-		"visgroupid" "19"
+		"visgroupid" "21"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -6268]"
@@ -127705,19 +127711,6 @@ entity
 }
 entity
 {
-	"id" "157309"
-	"classname" "env_cubemap"
-	"origin" "1024 7680 576"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "155242"
 	"classname" "func_detail"
 	solid
@@ -127954,6 +127947,90 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 7500]"
+	}
+}
+entity
+{
+	"id" "157341"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "3856 11904 560"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "157350"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "3856 12968 560"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "157356"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "3856 14032 560"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "157359"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "5368 14032 560"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "157368"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "5368 11904 560"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "158551"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "1024 7680 560"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
