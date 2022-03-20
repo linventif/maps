@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9174"
-	"mapversion" "318"
+	"mapversion" "319"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "318"
+	"mapversion" "319"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -71386,7 +71386,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 103 216"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -71462,7 +71462,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 185 186"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -71538,7 +71538,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 167 200"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -71614,7 +71614,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 153 202"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -71690,7 +71690,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 151 204"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -71766,7 +71766,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 237 210"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -71842,7 +71842,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 131 228"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -71918,7 +71918,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 169 154"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -71994,7 +71994,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 103 172"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -72070,7 +72070,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 201 182"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -72146,7 +72146,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 239 200"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -72222,7 +72222,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 145 126"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -72309,7 +72309,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 111 152"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -72385,7 +72385,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 173 150"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -72461,7 +72461,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 231 192"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -74982,7 +74982,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 193 246"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75058,7 +75058,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 171 208"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75134,7 +75134,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 113 254"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75210,7 +75210,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 215 116"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75286,7 +75286,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 169 114"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75362,7 +75362,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 183 124"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75438,7 +75438,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 221 106"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75514,7 +75514,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 207 188"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75590,7 +75590,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 153 218"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75666,7 +75666,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 107 180"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75742,7 +75742,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 157 242"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75818,7 +75818,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 191 168"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75905,7 +75905,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 117 110"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -75981,7 +75981,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 153 114"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -76057,7 +76057,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 227 120"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
