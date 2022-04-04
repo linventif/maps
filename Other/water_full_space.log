@@ -1,0 +1,70 @@
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\other\water_full_space.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-16392.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-16392.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 9216.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 13312.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 15360.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 16384.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 16384.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 16384.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 15360.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: TOOLS/TOOLSNODRAW, near (15360.000000, 15360.000000, -16400.000000))
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\other\water_full_space.bsp
+Error opening c:\users\linventif\documents\github\linventif-maps\other\water_full_space.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\other\water_full_space.bsp
+Error opening c:\users\linventif\documents\github\linventif-maps\other\water_full_space.bsp
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\other\water_full_space.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-16392.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-16392.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 9216.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 13312.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 15360.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 16392.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 16384.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 16384.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 16384.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 15360.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: DEV/DEV_MEASUREGENERIC01AB, near (15360.000000, 15360.000000, -16400.000000))
+WARNING: BSP node with unbounded volume (material: TOOLS/TOOLSNODRAW, near (16384.000000, 16384.000000, 16400.000000))
+WARNING: BSP node with unbounded volume (material: TOOLS/TOOLSNODRAW, near (16320.000000, 15360.000000, -0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16320.000000, 16320.000000, 0.000000))
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\other\water_full_space.bsp
+Error opening c:\users\linventif\documents\github\linventif-maps\other\water_full_space.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\other\water_full_space.bsp
+Error opening c:\users\linventif\documents\github\linventif-maps\other\water_full_space.bsp
