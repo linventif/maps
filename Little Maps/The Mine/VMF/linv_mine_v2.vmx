@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "9174"
-	"mapversion" "336"
+	"editorbuild" "9169"
+	"mapversion" "337"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -10,33 +10,39 @@ visgroups
 {
 	visgroup
 	{
-		"name" "forest"
-		"visgroupid" "16"
-		"color" "242 251 184"
-	}
-	visgroup
-	{
-		"name" "road"
-		"visgroupid" "19"
-		"color" "169 206 119"
-	}
-	visgroup
-	{
-		"name" "forest_v2"
-		"visgroupid" "23"
-		"color" "170 163 176"
-	}
-	visgroup
-	{
-		"name" "mine"
-		"visgroupid" "18"
-		"color" "224 145 246"
-	}
-	visgroup
-	{
-		"name" "dev"
-		"visgroupid" "21"
-		"color" "116 101 218"
+		"name" "p1"
+		"visgroupid" "17"
+		"color" "147 80 161"
+		visgroup
+		{
+			"name" "dev"
+			"visgroupid" "21"
+			"color" "116 101 218"
+		}
+		visgroup
+		{
+			"name" "mine"
+			"visgroupid" "18"
+			"color" "224 145 246"
+		}
+		visgroup
+		{
+			"name" "forest_v2"
+			"visgroupid" "23"
+			"color" "170 163 176"
+		}
+		visgroup
+		{
+			"name" "road"
+			"visgroupid" "19"
+			"color" "169 206 119"
+		}
+		visgroup
+		{
+			"name" "forest"
+			"visgroupid" "16"
+			"color" "242 251 184"
+		}
 	}
 }
 viewsettings
@@ -50,7 +56,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "336"
+	"mapversion" "337"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -66277,15 +66283,15 @@ world
 				}
 				offset_normals
 				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0.5 -2.18557e-08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row5" "1 -4.37114e-08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row6" "1 -4.37114e-08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row7" "1 -4.37114e-08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row8" "0.5 -2.18557e-08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row0" "1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0"
+					"row1" "1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0"
+					"row2" "1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0"
+					"row3" "1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0"
+					"row4" "1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0"
+					"row5" "1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0"
+					"row6" "1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0"
+					"row7" "1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0"
+					"row8" "1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0"
 				}
 				alphas
 				{
@@ -67577,16 +67583,6 @@ world
 		{
 			"color" "239 192 0"
 			"groupid" "153138"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "162939"
-		editor
-		{
-			"color" "220 220 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -71008,6 +71004,300 @@ entity
 	{
 		"color" "239 192 0"
 		"groupid" "153139"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "164582"
+	"classname" "prop_static"
+	"_light" "255 255 255 180"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/map_detail/station_ceilinglight.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1504 11488 832"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164581"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11000]"
+	}
+}
+entity
+{
+	"id" "164586"
+	"classname" "light"
+	"_light" "255 255 255 180"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-1504 11488 704"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164581"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "164593"
+	"classname" "prop_static"
+	"_light" "255 255 255 180"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/map_detail/station_ceilinglight.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-2016 11488 832"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164592"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11000]"
+	}
+}
+entity
+{
+	"id" "164597"
+	"classname" "light"
+	"_light" "255 255 255 180"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-2016 11488 704"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164592"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "164604"
+	"classname" "prop_static"
+	"_light" "255 255 255 180"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/map_detail/station_ceilinglight.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-2528 11488 832"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164603"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11000]"
+	}
+}
+entity
+{
+	"id" "164608"
+	"classname" "light"
+	"_light" "255 255 255 180"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-2528 11488 704"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164603"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "164615"
+	"classname" "prop_static"
+	"_light" "255 255 255 180"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/map_detail/station_ceilinglight.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-3040 11488 832"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164614"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11000]"
+	}
+}
+entity
+{
+	"id" "164619"
+	"classname" "light"
+	"_light" "255 255 255 180"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-3040 11488 704"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164614"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "164626"
+	"classname" "prop_static"
+	"_light" "255 255 255 180"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/map_detail/station_ceilinglight.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-3552 11488 832"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164625"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11000]"
+	}
+}
+entity
+{
+	"id" "164630"
+	"classname" "light"
+	"_light" "255 255 255 180"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-3552 11488 704"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164625"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "164637"
+	"classname" "prop_static"
+	"_light" "255 255 255 180"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/map_detail/station_ceilinglight.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-4064 11488 832"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164636"
+		"visgroupid" "19"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11000]"
+	}
+}
+entity
+{
+	"id" "164641"
+	"classname" "light"
+	"_light" "255 255 255 180"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-4064 11488 704"
+	editor
+	{
+		"color" "239 192 0"
+		"groupid" "164636"
 		"visgroupid" "19"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -127468,6 +127758,7 @@ entity
 	editor
 	{
 		"color" "0 180 0"
+		"visgroupid" "18"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 7500]"
@@ -127477,11 +127768,11 @@ entity
 {
 	"id" "157341"
 	"classname" "env_cubemap"
-	"sides" ""
 	"origin" "3856 11904 560"
 	editor
 	{
 		"color" "0 0 255"
+		"visgroupid" "18"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -127491,11 +127782,11 @@ entity
 {
 	"id" "157350"
 	"classname" "env_cubemap"
-	"sides" ""
 	"origin" "3856 12968 560"
 	editor
 	{
 		"color" "0 0 255"
+		"visgroupid" "18"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -127505,11 +127796,11 @@ entity
 {
 	"id" "157356"
 	"classname" "env_cubemap"
-	"sides" ""
 	"origin" "3856 14032 560"
 	editor
 	{
 		"color" "0 0 255"
+		"visgroupid" "18"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -127519,11 +127810,11 @@ entity
 {
 	"id" "157359"
 	"classname" "env_cubemap"
-	"sides" ""
 	"origin" "5368 14032 560"
 	editor
 	{
 		"color" "0 0 255"
+		"visgroupid" "18"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -127533,11 +127824,11 @@ entity
 {
 	"id" "157368"
 	"classname" "env_cubemap"
-	"sides" ""
 	"origin" "5368 11904 560"
 	editor
 	{
 		"color" "0 0 255"
+		"visgroupid" "18"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -127547,11 +127838,11 @@ entity
 {
 	"id" "158551"
 	"classname" "env_cubemap"
-	"sides" ""
 	"origin" "1024 7680 560"
 	editor
 	{
 		"color" "0 0 255"
+		"visgroupid" "19"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -127578,6 +127869,7 @@ entity
 	editor
 	{
 		"color" "220 30 220"
+		"visgroupid" "19"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9500]"
@@ -127597,6 +127889,7 @@ entity
 	editor
 	{
 		"color" "220 30 220"
+		"visgroupid" "19"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 10000]"
@@ -127625,6 +127918,7 @@ entity
 	editor
 	{
 		"color" "220 30 220"
+		"visgroupid" "19"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8500 10500]"
@@ -128549,6 +128843,7 @@ entity
 	editor
 	{
 		"color" "0 180 0"
+		"visgroupid" "19"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3000]"
@@ -129346,307 +129641,13 @@ entity
 }
 entity
 {
-	"id" "164582"
-	"classname" "prop_static"
-	"_light" "255 255 255 180"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/map_detail/station_ceilinglight.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-1504 11488 832"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164581"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11000]"
-	}
-}
-entity
-{
-	"id" "164586"
-	"classname" "light"
-	"_light" "255 255 255 180"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"origin" "-1504 11488 704"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164581"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11500]"
-	}
-}
-entity
-{
-	"id" "164593"
-	"classname" "prop_static"
-	"_light" "255 255 255 180"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/map_detail/station_ceilinglight.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-2016 11488 832"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164592"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11000]"
-	}
-}
-entity
-{
-	"id" "164597"
-	"classname" "light"
-	"_light" "255 255 255 180"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"origin" "-2016 11488 704"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164592"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11500]"
-	}
-}
-entity
-{
-	"id" "164604"
-	"classname" "prop_static"
-	"_light" "255 255 255 180"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/map_detail/station_ceilinglight.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-2528 11488 832"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164603"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11000]"
-	}
-}
-entity
-{
-	"id" "164608"
-	"classname" "light"
-	"_light" "255 255 255 180"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"origin" "-2528 11488 704"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164603"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11500]"
-	}
-}
-entity
-{
-	"id" "164615"
-	"classname" "prop_static"
-	"_light" "255 255 255 180"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/map_detail/station_ceilinglight.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-3040 11488 832"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164614"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11000]"
-	}
-}
-entity
-{
-	"id" "164619"
-	"classname" "light"
-	"_light" "255 255 255 180"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"origin" "-3040 11488 704"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164614"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11500]"
-	}
-}
-entity
-{
-	"id" "164626"
-	"classname" "prop_static"
-	"_light" "255 255 255 180"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/map_detail/station_ceilinglight.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-3552 11488 832"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164625"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11000]"
-	}
-}
-entity
-{
-	"id" "164630"
-	"classname" "light"
-	"_light" "255 255 255 180"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"origin" "-3552 11488 704"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164625"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11500]"
-	}
-}
-entity
-{
-	"id" "164637"
-	"classname" "prop_static"
-	"_light" "255 255 255 180"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/map_detail/station_ceilinglight.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-4064 11488 832"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164636"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11000]"
-	}
-}
-entity
-{
-	"id" "164641"
-	"classname" "light"
-	"_light" "255 255 255 180"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"origin" "-4064 11488 704"
-	editor
-	{
-		"color" "239 192 0"
-		"groupid" "164636"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 11500]"
-	}
-}
-entity
-{
 	"id" "164646"
 	"classname" "env_cubemap"
-	"sides" ""
 	"origin" "-2784 11488 560"
 	editor
 	{
 		"color" "0 0 255"
+		"visgroupid" "19"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"

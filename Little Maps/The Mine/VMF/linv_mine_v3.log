@@ -1,0 +1,164 @@
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine_v3.vmf
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Patching WVT material: maps/linv_mine_v3/de_nuke/nukblenddirtgrass_wvt_patch
+Patching WVT material: maps/linv_mine_v3/statua/nature/rockfordgrass1_noprop_wvt_patch
+Patching WVT material: maps/linv_mine_v3/de_train/blendgraveldirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1044 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine_v3.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (432891 bytes)
+WARNING! model "models/props_c17/handrail04_corner.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_bush02.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_buildings/watertower_001a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/maple_001_l.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_tree_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_c17/gasmeter001a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_interiors/lights_florescent01a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_lab/freightelevatorbutton.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_wasteland/exterior_fence002d.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_wasteland/exterior_fence002c.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_c17/substation_transformer01a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_wasteland/exterior_fence002b.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_wasteland/exterior_fence002e.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/county/farm/corn_field01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_zoo/rock02d.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3072 texinfos to 1955
+Reduced 236 texdatas to 188 (8909 bytes to 7396)
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine_v3.bsp
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine_v3.bsp
+reading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine_v3.prt
+ 576 portalclusters
+2037 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 562 visible clusters (0.31%)
+Total clusters visible: 180906
+Average clusters visible: 314
+Building PAS...
+Average clusters audible: 325
+visdatasize:53779  compressed from 82944
+writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine_v3.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine_v3.bsp
+PREP OK
+Warning! Invalid model version "models/props_c17/handrail04_corner.mdl"
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+Warning! Invalid model version "models/props_foliage/maple_001_l.mdl"
+Warning! Invalid model version "models/props_foliage/mall_tree_large01.mdl"
+Warning! Invalid model version "models/props_c17/gasmeter001a.mdl"
+Warning! Invalid model version "models/props_interiors/lights_florescent01a.mdl"
+Warning! Invalid model version "models/props_lab/freightelevatorbutton.mdl"
+Warning! Invalid model version "models/props_wasteland/exterior_fence002d.mdl"
+Warning! Invalid model version "models/props_wasteland/exterior_fence002c.mdl"
+Warning! Invalid model version "models/props_c17/substation_transformer01a.mdl"
+Warning! Invalid model version "models/props_wasteland/exterior_fence002b.mdl"
+Warning! Invalid model version "models/props_wasteland/exterior_fence002e.mdl"
+Warning! Invalid model version "models/county/farm/corn_field01.mdl"
+Warning! Invalid model version "models/props_zoo/rock02d.mdl"
+6671 faces
+3 degenerate faces
+3705201 square feet [533549024.00 square inches]
+487 Displacements
+585470 Square Feet [84307760.00 Square Inches]
+6668 patches before subdivision
+278606 patches after subdivision
+174 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 39749786, max 902
+transfer lists: 303.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(134854, 137187, 113816)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20363, 17901, 12546)
+Build Patch/Sample Hash Table(s).....Done<0.0865 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  18/4096          864/196608   ( 0.4%) 
+brushes               1217/16384       14604/196608   ( 7.4%) 
+brushsides           10896/163840      87168/1310720  ( 6.7%) 
+planes                4704/65536       94080/1310720  ( 7.2%) 
+vertexes             10214/65536      122568/786432   (15.6%) 
+nodes                 1291/65536       41312/2097152  ( 2.0%) 
+texinfos              1955/12288      140760/884736   (15.9%) 
+texdata                188/2048         6016/65536    ( 9.2%) 
+dispinfos              487/0           85712/0        ( 0.0%) 
+disp_verts           15255/0          305100/0        ( 0.0%) 
+disp_tris            20864/0           41728/0        ( 0.0%) 
+disp_lmsamples      839752/0          839752/0        ( 0.0%) 
+faces                 6671/65536      373576/3670016  (10.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3159/65536      176904/3670016  ( 4.8%) 
+leaves                1310/65536       41920/2097152  ( 2.0%) 
+leaffaces             8647/65536       17294/131072   (13.2%) 
+leafbrushes           2954/65536        5908/131072   ( 4.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            44080/512000     176320/2048000  ( 8.6%) 
+edges                25824/256000     103296/1024000  (10.1%) 
+LDR worldlights        174/8192        15312/720896   ( 2.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            881/32768        8810/327680   ( 2.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16164/65536       32328/131072   (24.7%) 
+cubemapsamples          18/1024          288/16384    ( 1.8%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]    18307612/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       53779/16777216 ( 0.3%) 
+entdata               [variable]       94502/393216   (24.0%) 
+LDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+HDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+LDR leaf ambient      7457/65536      208796/1835008  (11.4%) 
+HDR leaf ambient      1310/65536       36680/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/36016    ( 0.0%) 
+pakfile               [variable]     2045231/0        ( 0.0%) 
+physics               [variable]      432891/4194304  (10.3%) 
+physics terrain       [variable]      114083/1048576  (10.9%) 
+
+Level flags = 0
+
+Total triangle count: 18120
+Writing c:\users\linventif\documents\github\linventif-maps\little maps\the mine\vmf\linv_mine_v3.bsp
+19 seconds elapsed
