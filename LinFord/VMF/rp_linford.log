@@ -1,0 +1,107 @@
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\linventif-maps\linford\vmf\rp_linford.vmf
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/rp_linford/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+env_cubemap pointing at deleted brushside near (40, 10120, 585)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2338 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\linventif\documents\github\linventif-maps\linford\vmf\rp_linford.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1339010 bytes)
+WARNING! model "models/props_foliage/mall_bush02.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_c17/handrail04_corner.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_buildings/watertower_001a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/maple_001_l.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_tree_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_c17/gasmeter001a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_interiors/lights_florescent01a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_lab/freightelevatorbutton.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_c17/substation_transformer01a.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_wasteland/exterior_fence002b.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_zoo/rock02d.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_lighting/airportlight01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/themask/sbmp/env_objects/trash/sm_dumpster_01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_wasteland/exterior_fence002e.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_electric/control_panel_003.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_electric/control_panel_004.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! To use model "models/props_industrial/lift_button.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_industrial/lift_button.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9066 texinfos to 4760
+Reduced 612 texdatas to 503 (25310 bytes to 21608)
+Writing c:\users\linventif\documents\github\linventif-maps\linford\vmf\rp_linford.bsp
+7 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\linventif-maps\linford\vmf\rp_linford.bsp
+reading c:\users\linventif\documents\github\linventif-maps\linford\vmf\rp_linford.prt
+3168 portalclusters
+9341 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 39899 visible clusters (3.66%)
+Total clusters visible: 1090321
+Average clusters visible: 344
+Building PAS...
+Average clusters audible: 985
+visdatasize:892638  compressed from 2534400
+writing c:\users\linventif\documents\github\linventif-maps\linford\vmf\rp_linford.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\linventif-maps\linford\vmf\rp_linford.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_c17/handrail04_corner.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+Warning! Invalid model version "models/props_foliage/maple_001_l.mdl"
+Warning! Invalid model version "models/props_foliage/mall_tree_large01.mdl"
+Warning! Invalid model version "models/props_c17/gasmeter001a.mdl"
+Warning! Invalid model version "models/props_interiors/lights_florescent01a.mdl"
+Warning! Invalid model version "models/props_lab/freightelevatorbutton.mdl"
+Warning! Invalid model version "models/props_c17/substation_transformer01a.mdl"
+Warning! Invalid model version "models/props_wasteland/exterior_fence002b.mdl"
+Warning! Invalid model version "models/props_zoo/rock02d.mdl"
+Warning! Invalid model version "models/props_lighting/airportlight01.mdl"
+Warning! Invalid model version "models/themask/sbmp/env_objects/trash/sm_dumpster_01.mdl"
+Warning! Invalid model version "models/props_wasteland/exterior_fence002e.mdl"
+Warning! Invalid model version "models/props_electric/control_panel_003.mdl"
+Warning! Invalid model version "models/props_electric/control_panel_004.mdl"
+27134 faces
+9 degenerate faces
+22983016 square feet [3309554176.00 square inches]
+690 Displacements
+2503375 Square Feet [360486080.00 Square Inches]
+27125 patches before subdivision
+1334119 patches after subdivision
+434 direct lights
+0...1...2...3...4...5...6...7...8...9...100
