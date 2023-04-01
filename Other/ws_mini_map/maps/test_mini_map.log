@@ -1,0 +1,215 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\maps\other\ws_mini_map\test_mini_map.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\maps\other\ws_mini_map\test_mini_map.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17261 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 137 texinfos to 113
+Reduced 4 texdatas to 4 (89 bytes to 89)
+Writing c:\users\linventif\documents\github\maps\other\ws_mini_map\test_mini_map.bsp
+0 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\maps\other\ws_mini_map\test_mini_map.bsp
+reading c:\users\linventif\documents\github\maps\other\ws_mini_map\test_mini_map.prt
+  68 portalclusters
+ 166 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2708
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 68
+visdatasize:1800  compressed from 2176
+writing c:\users\linventif\documents\github\maps\other\ws_mini_map\test_mini_map.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\maps\other\ws_mini_map\test_mini_map.bsp
+PREP OK
+430 faces
+350645 square feet [50492900.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+430 patches before subdivision
+21000 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1665124, max 470
+transfer lists:  12.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(222114, 96259, 32215)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(57399, 8702, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6985, 434, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1406, 35, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(249, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(53, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0042 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 46/16384         552/196608   ( 0.3%) 
+brushsides             404/163840       3232/1310720  ( 0.2%) 
+planes                 434/65536        8680/1310720  ( 0.7%) 
+vertexes               537/65536        6444/786432   ( 0.8%) 
+nodes                  154/65536        4928/2097152  ( 0.2%) 
+texinfos               113/12288        8136/884736   ( 0.9%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  430/65536       24080/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              118/65536        6608/3670016  ( 0.2%) 
+leaves                 156/65536        4992/2097152  ( 0.2%) 
+leaffaces              564/65536        1128/131072   ( 0.9%) 
+leafbrushes            211/65536         422/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2400/512000       9600/2048000  ( 0.5%) 
+edges                 1237/256000       4948/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             39/32768         390/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           543/65536        1086/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      436204/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1800/16777216 ( 0.0%) 
+entdata               [variable]        2589/393216   ( 0.7%) 
+LDR ambient table      156/65536         624/262144   ( 0.2%) 
+HDR ambient table      156/65536         624/262144   ( 0.2%) 
+LDR leaf ambient       844/65536       23632/1835008  ( 1.3%) 
+HDR leaf ambient       156/65536        4368/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       24882/0        ( 0.0%) 
+physics               [variable]       17261/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1068
+Writing c:\users\linventif\documents\github\maps\other\ws_mini_map\test_mini_map.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\maps\other\ws_mini_map\test_mini_map.bsp
+PREP OK
+430 faces
+350645 square feet [50492900.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+430 patches before subdivision
+21000 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1665124, max 470
+transfer lists:  12.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(68554, 30488, 10988)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(17577, 2730, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2147, 137, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(432, 11, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(76, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0049 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 46/16384         552/196608   ( 0.3%) 
+brushsides             404/163840       3232/1310720  ( 0.2%) 
+planes                 434/65536        8680/1310720  ( 0.7%) 
+vertexes               537/65536        6444/786432   ( 0.8%) 
+nodes                  154/65536        4928/2097152  ( 0.2%) 
+texinfos               113/12288        8136/884736   ( 0.9%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  430/65536       24080/3670016  ( 0.7%) 
+hdr faces              430/65536       24080/3670016  ( 0.7%) 
+origfaces              118/65536        6608/3670016  ( 0.2%) 
+leaves                 156/65536        4992/2097152  ( 0.2%) 
+leaffaces              564/65536        1128/131072   ( 0.9%) 
+leafbrushes            211/65536         422/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2400/512000       9600/2048000  ( 0.5%) 
+edges                 1237/256000       4948/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             39/32768         390/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           543/65536        1086/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      436204/0        ( 0.0%) 
+HDR lightdata         [variable]      436204/0        ( 0.0%) 
+visdata               [variable]        1800/16777216 ( 0.0%) 
+entdata               [variable]        2589/393216   ( 0.7%) 
+LDR ambient table      156/65536         624/262144   ( 0.2%) 
+HDR ambient table      156/65536         624/262144   ( 0.2%) 
+LDR leaf ambient       844/65536       23632/1835008  ( 1.3%) 
+HDR leaf ambient       840/65536       23520/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       24882/0        ( 0.0%) 
+physics               [variable]       17261/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1068
+Writing c:\users\linventif\documents\github\maps\other\ws_mini_map\test_mini_map.bsp
+2 seconds elapsed
