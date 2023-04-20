@@ -1,17 +1,21 @@
 # Linventif-Maps
 
-### Discord
-Discord -> Linventif#1909
+## Informations
 
-Discord Server -> https://dsc.gg/linventif
+Discord -> Linventif#0253
 
-### Steam
-Steam Profil -> https://steamcommunity.com/id/linventif/
+Discord Server -> [Linventif's Creations](https://linv.dev/discord)
 
+Steam Profil -> [Linventif](https://steamcommunity.com/id/linventif/)
 
-### Free
-LICENCE -> CC BY-NC-SA 3.0
-https://creativecommons.org/licenses/by-nc-sa/3.0
+## Support & Discord
 
-### Commercial
-Contact me on Disord :) or open a ticket on my discord server :) 
+Need Help ? Join my discord and create a ticket in the #support channel.
+
+[![Linventif's Creations](https://i.imgur.com/Ro6EtDP.png)](https://linv.dev/discord)
+
+## License
+
+This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+[![CC BY-SA 4.0](https://i.imgur.com/OlWXFzL.png)](https://creativecommons.org/licenses/by-sa/4.0/)
