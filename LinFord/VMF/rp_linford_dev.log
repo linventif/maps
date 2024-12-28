@@ -1,0 +1,1324 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.vmf
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Can't find surfaceprop marble for material AGENCY/WALL/MARBLE01, using default
+Material not found!: JOHN/CA
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE01A, using default
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Patching WVT material: maps/rp_linford_dev/statua/nature/rockfordgrass1_noprop_wvt_patch
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity trigger_multiple (7121.29 -5267.79 1402.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 15872.0 712.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 15872.0 4720.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6656.0 16384.0 3768.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5632.0 16384.0 3768.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 14848.0 712.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 14848.0 4720.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 13824.0 712.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 13824.0 4720.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...
+Brush 2311309: areaportal brush doesn't touch two areas
+
+Brush 2294140: areaportal brush doesn't touch two areas
+
+Brush 2294140: areaportal brush doesn't touch two areas
+
+Brush 2294140: areaportal brush doesn't touch two areas
+
+Brush 2311309: areaportal brush doesn't touch two areas
+
+Brush 2311309: areaportal brush doesn't touch two areas
+
+Brush 2294707: areaportal brush doesn't touch two areas
+
+Brush 2294707: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 3160 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+Too many t-junctions to fix up! (3325 prims, max 32768 :: 65559 indices, max 65536)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2634 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+Too many t-junctions to fix up! (3226 prims, max 32768 :: 65541 indices, max 65536)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2634 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+Too many t-junctions to fix up! (3226 prims, max 32768 :: 65541 indices, max 65536)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2634 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+Too many t-junctions to fix up! (3226 prims, max 32768 :: 65541 indices, max 65536)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2634 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+Too many t-junctions to fix up! (3226 prims, max 32768 :: 65541 indices, max 65536)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2634 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+Too many t-junctions to fix up! (3226 prims, max 32768 :: 65541 indices, max 65536)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.prt...
+Building visibility clusters...
+done (0)
+WARNING: node without a volume
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-268.7 223.4 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2631202: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-260.3 231.9 228.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 2631195: 
+
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (2216779 bytes)
+Error! To use model "models/props_industrial/lift_button.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_industrial/lift_button.mdl"!
+Error loading studio model STATIC "models/uc/props_junk/boxstack.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19892 texinfos to 6659
+Reduced 758 texdatas to 667 (35149 bytes to 31948)
+Writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.prt...
+Building visibility clusters...
+done (0)
+WARNING: node without a volume
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-268.7 223.4 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2631202: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-260.3 231.9 228.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 2631195: 
+
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (2216779 bytes)
+Error! To use model "models/props_industrial/lift_button.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_industrial/lift_button.mdl"!
+Error loading studio model STATIC "models/uc/props_junk/boxstack.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19892 texinfos to 6659
+Reduced 758 texdatas to 667 (35149 bytes to 31948)
+Writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+12 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.prt
+3226 portalclusters
+9346 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4478 visible clusters (0.53%)
+Total clusters visible: 838634
+Average clusters visible: 259
+Building PAS...
+Average clusters audible: 631
+visdatasize:663860  compressed from 2632416
+writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+2 minutes, 1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+PREP OK
+Warning! Invalid model version "models/county/farm/silo01_dome.mdl"
+Warning! Invalid model version "models/county/farm/silo01.mdl"
+Warning! Invalid model version "models/county/farm/silo01_details.mdl"
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+Warning! Invalid model version "models/props_foliage/maple_001_l.mdl"
+Warning! Invalid model version "models/props_foliage/mall_tree_large01.mdl"
+Warning! Invalid model version "models/props_interiors/lights_florescent01a.mdl"
+Warning! Invalid model version "models/props_lab/freightelevatorbutton.mdl"
+Warning! Invalid model version "models/props_c17/substation_transformer01a.mdl"
+Warning! Invalid model version "models/props_wasteland/exterior_fence002b.mdl"
+Warning! Invalid model version "models/props_zoo/rock02d.mdl"
+Warning! Invalid model version "models/props_lighting/airportlight01.mdl"
+Warning! Invalid model version "models/themask/sbmp/env_objects/trash/sm_dumpster_01.mdl"
+Warning! Invalid model version "models/agency/desks/officedesk01.mdl"
+Warning! Invalid model version "models/props/de_nuke/hr_nuke/nuke_chair/nuke_chair.mdl"
+Warning! Invalid model version "models/props_resort/bench01.mdl"
+Warning! Invalid model version "models/props_interiors/refrigerator03.mdl"
+Warning! Invalid model version "models/props_c17/gasmeter001a.mdl"
+Warning! Invalid model version "models/props_interiors/dining_table_round.mdl"
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_bigleaves_plant03.mdl"
+Warning! Invalid model version "models/props_wasteland/exterior_fence002e.mdl"
+Warning! Invalid model version "models/props_electric/control_panel_003.mdl"
+Warning! Invalid model version "models/props_electric/control_panel_004.mdl"
+Warning! Invalid model version "models/county/farm/haybale02.mdl"
+Warning! Invalid model version "models/county/farm/haybale03.mdl"
+25117 faces
+7 degenerate faces
+12375675 square feet [1782097152.00 square inches]
+738 Displacements
+2950895 Square Feet [424928864.00 Square Inches]
+25110 patches before subdivision
+Zero area child patch at around 11590.505859 -9858.370117 520.000000
+614754 patches after subdivision
+light has _fifty_percent_distance of 993.000000 but _zero_percent_distance of 650.000000 @ (536.849976 -6295.169922 632.299988)
+716 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 39736766, max 521
+transfer lists: 303.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1780864, 1567816, 920692)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(124116, 97456, 54990)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(27242, 18857, 9261)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6521, 3797, 1652)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2015, 1010, 382)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(678, 271, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(247, 82, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(99, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(41, 9, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(8, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.2542 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 668/4096        32064/196608   (16.3%) 
+brushes               5505/16384       66060/196608   (33.6%) 
+brushsides           41691/163840     333528/1310720  (25.4%) 
+planes               28120/65536      562400/1310720  (42.9%) 
+vertexes             46069/65536      552828/786432   (70.3%) 
+nodes                21724/65536      695168/2097152  (33.1%) 
+texinfos              6659/16384      479448/1179648  (40.6%) 
+texdata                667/8192        21344/262144   ( 8.1%) 
+dispinfos              738/0          129888/0        ( 0.0%) 
+disp_verts           34634/0          692680/0        ( 0.0%) 
+disp_tris            51360/0          102720/0        ( 0.0%) 
+disp_lmsamples     1662860/0         1662860/0        ( 0.0%) 
+faces                25117/65536     1406552/3670016  (38.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            13088/65536      732928/3670016  (20.0%) 
+leaves               22393/65536      716576/2097152  (34.2%) 
+leaffaces            26486/65536       52972/131072   (40.4%) 
+leafbrushes          12400/65536       24800/131072   (18.9%) 
+areas                   38/1024          304/8192     ( 3.7%) 
+surfedges           166777/512000     667108/2048000  (32.6%) 
+edges               104178/256000     416712/1024000  (40.7%) 
+LDR worldlights        716/8192        63008/720896   ( 8.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            361/32768        3610/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5523/65536       11046/131072   ( 8.4%) 
+cubemapsamples          86/1024         1376/16384    ( 8.4%) 
+overlays                 9/8192         3168/2883584  ( 0.1%) 
+LDR lightdata         [variable]    30271376/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      663860/16777216 ( 4.0%) 
+entdata               [variable]      649921/393216   (165.3%) VERY FULL!
+LDR ambient table    22393/65536       89572/262144   (34.2%) 
+HDR ambient table    22393/65536       89572/262144   (34.2%) 
+LDR leaf ambient     69447/65536     1944516/1835008  (106.0%) VERY FULL!
+HDR leaf ambient     22393/65536      627004/1835008  (34.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/2369772  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/174906   ( 0.0%) 
+pakfile               [variable]     2326896/0        ( 0.0%) 
+physics               [variable]     2216779/4194304  (52.9%) 
+physics terrain       [variable]      198744/1048576  (19.0%) 
+
+Level flags = 0
+
+Total triangle count: 64231
+Writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+4 minutes, 52 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+env_cubemap pointing at deleted brushside near (11092, 2340, 648)
+env_cubemap pointing at deleted brushside near (11092, 2340, 648)
+env_cubemap pointing at deleted brushside near (11092, 2336, 519)
+env_cubemap pointing at deleted brushside near (11092, 2336, 519)
+env_cubemap pointing at deleted brushside near (11092, 2336, 519)
+env_cubemap pointing at deleted brushside near (11092, 2336, 519)
+env_cubemap pointing at deleted brushside near (10464, 4064, 582)
+env_cubemap pointing at deleted brushside near (10464, 4064, 582)
+env_cubemap pointing at deleted brushside near (10464, 4064, 582)
+env_cubemap pointing at deleted brushside near (11272, 647, 573)
+env_cubemap pointing at deleted brushside near (11272, 647, 573)
+env_cubemap pointing at deleted brushside near (11272, 647, 573)
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity func_brush (-1280.00 -5472.00 7440.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 15872.0 712.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 15872.0 4864.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6656.0 16384.0 3912.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5632.0 16384.0 3912.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 14848.0 712.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 14848.0 4864.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 13824.0 712.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 13824.0 4864.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (4) (2001614 bytes)
+Static prop models/props_c17/light_floodlight02_off.mdl outside the map (-321.14, 3036.71, 7408.38)
+Static prop models/props_c17/light_floodlight02_off.mdl outside the map (-763.29, 3137.15, 7408.38)
+Static prop models/props_c17/light_floodlight02_off.mdl outside the map (-580.06, 3635.77, 7408.38)
+Static prop models/props_c17/light_floodlight02_off.mdl outside the map (2990.86, 3036.71, 7408.38)
+Static prop models/props_c17/light_floodlight02_off.mdl outside the map (2548.71, 3137.15, 7408.38)
+Static prop models/props_c17/light_floodlight02_off.mdl outside the map (2731.94, 3635.77, 7408.38)
+Static prop models/props_foliage/hedgerow02_medium_exlong_poplar01b.mdl outside the map (0.00, 592.00, 7248.00)
+Static prop models/props_foliage/hedgerow02_medium_exlong_poplar01b.mdl outside the map (-1280.00, 640.00, 7248.00)
+Static prop models/props_foliage/hedgerow02_medium_exlong_poplar01b.mdl outside the map (-480.00, 1152.00, 7248.00)
+Static prop models/props_foliage/hedgerow02_medium_exlong_poplar01b.mdl outside the map (-480.00, 32.00, 7248.00)
+Static prop models/props_foliage/hedgerow02_medium_exlong_poplar01b.mdl outside the map (3328.00, 592.00, 7248.00)
+Static prop models/props_foliage/hedgerow02_medium_exlong_poplar01b.mdl outside the map (2048.00, 640.00, 7248.00)
+Static prop models/props_foliage/hedgerow02_medium_exlong_poplar01b.mdl outside the map (2848.00, 1152.00, 7248.00)
+Static prop models/props_foliage/hedgerow02_medium_exlong_poplar01b.mdl outside the map (2848.00, 32.00, 7248.00)
+Static prop models/props_electric/control_panel_003.mdl outside the map (-1088.00, -1840.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (-920.00, -1944.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (-756.00, -1944.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf003.mdl outside the map (-428.00, -1944.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf002.mdl outside the map (-592.00, -1944.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf004.mdl outside the map (-264.00, -1944.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf003.mdl outside the map (-428.00, -1944.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf002.mdl outside the map (-592.00, -1944.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (-920.00, -1944.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (-920.00, -1288.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (-920.00, -1288.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (-756.00, -1288.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (-756.00, -1288.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf002.mdl outside the map (-592.00, -1288.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf002.mdl outside the map (-592.00, -1288.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf003.mdl outside the map (-428.00, -1288.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf003.mdl outside the map (-428.00, -1288.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf004.mdl outside the map (-264.00, -1288.00, 7152.00)
+Static prop models/props_electric/control_panel_004.mdl outside the map (-1088.00, -1456.00, 7152.00)
+Static prop models/props/de_train/electricalbox01.mdl outside the map (-1088.00, -1656.00, 7152.00)
+Error! To use model "models/props_industrial/lift_button.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_industrial/lift_button.mdl"!
+Static prop models/props_am/powerbox.mdl outside the map (-208.00, -1380.00, 7216.00)
+Error loading studio model STATIC "models/uc/props_junk/boxstack.mdl"!
+Static prop models/props_electric/control_panel_003.mdl outside the map (3232.00, -1456.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (3064.00, -1352.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (2900.00, -1352.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf003.mdl outside the map (2572.00, -1352.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf002.mdl outside the map (2736.00, -1352.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf004.mdl outside the map (2408.00, -1352.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf003.mdl outside the map (2572.00, -1352.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf002.mdl outside the map (2736.00, -1352.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (3064.00, -1352.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (3064.00, -2008.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (3064.00, -2008.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (2900.00, -2008.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (2900.00, -2008.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf002.mdl outside the map (2736.00, -2008.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf002.mdl outside the map (2736.00, -2008.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf003.mdl outside the map (2572.00, -2008.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf003.mdl outside the map (2572.00, -2008.00, 7152.00)
+Static prop models/props_industrial/warehouse_shelf004.mdl outside the map (2408.00, -2008.00, 7152.00)
+Static prop models/props_electric/control_panel_004.mdl outside the map (3232.00, -1840.00, 7152.00)
+Static prop models/props/de_train/electricalbox01.mdl outside the map (3232.00, -1636.00, 7152.00)
+Static prop models/props_am/powerbox.mdl outside the map (2352.00, -1916.00, 7216.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (-756.00, -1944.00, 7280.00)
+Static prop models/props_industrial/warehouse_shelf001.mdl outside the map (2900.00, -1352.00, 7280.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18691 texinfos to 6082
+Reduced 655 texdatas to 579 (30529 bytes to 27735)
+Writing C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.bsp
+12 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.prt
+LoadPortals: couldn't read c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+env_cubemap pointing at deleted brushside near (11092, 2340, 648)
+env_cubemap pointing at deleted brushside near (11092, 2340, 648)
+env_cubemap pointing at deleted brushside near (11092, 2336, 519)
+env_cubemap pointing at deleted brushside near (11092, 2336, 519)
+env_cubemap pointing at deleted brushside near (11092, 2336, 519)
+env_cubemap pointing at deleted brushside near (11092, 2336, 519)
+env_cubemap pointing at deleted brushside near (10464, 4064, 582)
+env_cubemap pointing at deleted brushside near (10464, 4064, 582)
+env_cubemap pointing at deleted brushside near (10464, 4064, 582)
+env_cubemap pointing at deleted brushside near (11272, 647, 573)
+env_cubemap pointing at deleted brushside near (11272, 647, 573)
+env_cubemap pointing at deleted brushside near (11272, 647, 573)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.prt...
+Building visibility clusters...
+done (0)
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-268.7 223.4 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2631202: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-260.3 231.9 228.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 2631195: 
+
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (4) (2042599 bytes)
+Error! To use model "models/props_industrial/lift_button.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_industrial/lift_button.mdl"!
+Error loading studio model STATIC "models/uc/props_junk/boxstack.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18833 texinfos to 6154
+Reduced 668 texdatas to 589 (31260 bytes to 28369)
+Writing C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.bsp
+11 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.prt
+2438 portalclusters
+6543 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3088 visible clusters (0.56%)
+Total clusters visible: 554892
+Average clusters visible: 227
+Building PAS...
+Average clusters audible: 552
+visdatasize:439772  compressed from 1521312
+writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+PREP OK
+Warning! Invalid model version "models/county/farm/silo01_dome.mdl"
+Warning! Invalid model version "models/county/farm/silo01.mdl"
+Warning! Invalid model version "models/county/farm/silo01_details.mdl"
+Warning! Invalid model version "models/props_foliage/mall_bush02.mdl"
+Warning! Invalid model version "models/props_buildings/watertower_001a.mdl"
+Warning! Invalid model version "models/props_foliage/maple_001_l.mdl"
+Warning! Invalid model version "models/props_foliage/mall_tree_large01.mdl"
+Warning! Invalid model version "models/props_interiors/lights_florescent01a.mdl"
+Warning! Invalid model version "models/props_lab/freightelevatorbutton.mdl"
+Warning! Invalid model version "models/props_c17/substation_transformer01a.mdl"
+Warning! Invalid model version "models/props_wasteland/exterior_fence002b.mdl"
+Warning! Invalid model version "models/props_zoo/rock02d.mdl"
+Warning! Invalid model version "models/props_lighting/airportlight01.mdl"
+Warning! Invalid model version "models/themask/sbmp/env_objects/trash/sm_dumpster_01.mdl"
+Warning! Invalid model version "models/agency/desks/officedesk01.mdl"
+Warning! Invalid model version "models/props/de_nuke/hr_nuke/nuke_chair/nuke_chair.mdl"
+Warning! Invalid model version "models/props_resort/bench01.mdl"
+Warning! Invalid model version "models/props_interiors/refrigerator03.mdl"
+Warning! Invalid model version "models/props_c17/gasmeter001a.mdl"
+Warning! Invalid model version "models/props_interiors/dining_table_round.mdl"
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_bigleaves_plant03.mdl"
+Warning! Invalid model version "models/props_wasteland/exterior_fence002e.mdl"
+Warning! Invalid model version "models/props_electric/control_panel_003.mdl"
+Warning! Invalid model version "models/props_electric/control_panel_004.mdl"
+Warning! Invalid model version "models/county/farm/haybale02.mdl"
+Warning! Invalid model version "models/county/farm/haybale03.mdl"
+23053 faces
+8 degenerate faces
+11928027 square feet [1717635840.00 square inches]
+738 Displacements
+2950895 Square Feet [424928864.00 Square Inches]
+23045 patches before subdivision
+Zero area child patch at around 11590.505859 -9858.370117 520.000000
+583259 patches after subdivision
+light has _fifty_percent_distance of 993.000000 but _zero_percent_distance of 650.000000 @ (536.849976 -6295.169922 632.299988)
+716 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 34325653, max 521
+transfer lists: 261.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1621760, 1418891, 854743)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(99631, 81266, 48657)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(21049, 15917, 8286)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4014, 2862, 1388)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1078, 733, 315)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(258, 169, 68)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(73, 47, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(19, 12, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(6, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.2234 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 659/4096        31632/196608   (16.1%) 
+brushes               5002/16384       60024/196608   (30.5%) 
+brushsides           38525/163840     308200/1310720  (23.5%) 
+planes               27618/65536      552360/1310720  (42.1%) 
+vertexes             42254/65536      507048/786432   (64.5%) 
+nodes                20032/65536      641024/2097152  (30.6%) 
+texinfos              6154/16384      443088/1179648  (37.6%) 
+texdata                589/8192        18848/262144   ( 7.2%) 
+dispinfos              738/0          129888/0        ( 0.0%) 
+disp_verts           34634/0          692680/0        ( 0.0%) 
+disp_tris            51360/0          102720/0        ( 0.0%) 
+disp_lmsamples     1662860/0         1662860/0        ( 0.0%) 
+faces                23053/65536     1290968/3670016  (35.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            11819/65536      661864/3670016  (18.0%) 
+leaves               20692/65536      662144/2097152  (31.6%) 
+leaffaces            24079/65536       48158/131072   (36.7%) 
+leafbrushes          11292/65536       22584/131072   (17.2%) 
+areas                   32/1024          256/8192     ( 3.1%) 
+surfedges           151676/512000     606704/2048000  (29.6%) 
+edges                94537/256000     378148/1024000  (36.9%) 
+LDR worldlights        716/8192        63008/720896   ( 8.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            201/32768        2010/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2688/65536        5376/131072   ( 4.1%) 
+cubemapsamples          86/1024         1376/16384    ( 8.4%) 
+overlays                 9/8192         3168/2883584  ( 0.1%) 
+LDR lightdata         [variable]    29145164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      439772/16777216 ( 2.6%) 
+entdata               [variable]      645212/393216   (164.1%) VERY FULL!
+LDR ambient table    20692/65536       82768/262144   (31.6%) 
+HDR ambient table    20692/65536       82768/262144   (31.6%) 
+LDR leaf ambient     61875/65536     1732500/1835008  (94.4%) VERY FULL!
+HDR leaf ambient     20692/65536      579376/1835008  (31.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/2369772  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/173604   ( 0.0%) 
+pakfile               [variable]     2308698/0        ( 0.0%) 
+physics               [variable]     2042599/4194304  (48.7%) 
+physics terrain       [variable]      198744/1048576  (19.0%) 
+
+Level flags = 0
+
+Total triangle count: 58334
+Writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+4 minutes, 38 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.prt...
+Building visibility clusters...
+done (0)
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-268.7 223.4 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2631202: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-260.3 231.9 228.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 2631195: 
+
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (2218971 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19806 texinfos to 6653
+Reduced 758 texdatas to 667 (35149 bytes to 31948)
+Writing C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.bsp
+8 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.prt
+3171 portalclusters
+9120 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 5026 visible clusters (0.61%)
+Total clusters visible: 830535
+Average clusters visible: 261
+Building PAS...
+Average clusters audible: 718
+visdatasize:714875  compressed from 2536800
+writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+1 minute, 42 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+PREP OK
+25100 faces
+8 degenerate faces
+12366292 square feet [1780745984.00 square inches]
+738 Displacements
+2950895 Square Feet [424928864.00 Square Inches]
+25092 patches before subdivision
+Zero area child patch at around 11590.505859 -9858.370117 520.000000
+613198 patches after subdivision
+light has _fifty_percent_distance of 993.000000 but _zero_percent_distance of 650.000000 @ (536.849976 -6295.169922 632.299988)
+716 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 41566014, max 521
+transfer lists: 317.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1792907, 1580342, 930049)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(124702, 98323, 55713)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(27443, 19012, 9342)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6552, 3817, 1662)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2019, 1013, 384)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(679, 272, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(247, 82, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(99, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(41, 9, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(8, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.2447 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 668/4096        32064/196608   (16.3%) 
+brushes               5474/16384       65688/196608   (33.4%) 
+brushsides           41504/163840     332032/1310720  (25.3%) 
+planes               28136/65536      562720/1310720  (42.9%) 
+vertexes             46026/65536      552312/786432   (70.2%) 
+nodes                21651/65536      692832/2097152  (33.0%) 
+texinfos              6653/16384      479016/1179648  (40.6%) 
+texdata                667/8192        21344/262144   ( 8.1%) 
+dispinfos              738/0          129888/0        ( 0.0%) 
+disp_verts           34634/0          692680/0        ( 0.0%) 
+disp_tris            51360/0          102720/0        ( 0.0%) 
+disp_lmsamples     1662860/0         1662860/0        ( 0.0%) 
+faces                25100/65536     1405600/3670016  (38.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            13082/65536      732592/3670016  (20.0%) 
+leaves               22320/65536      714240/2097152  (34.1%) 
+leaffaces            26462/65536       52924/131072   (40.4%) 
+leafbrushes          12336/65536       24672/131072   (18.8%) 
+areas                   32/1024          256/8192     ( 3.1%) 
+surfedges           166653/512000     666612/2048000  (32.5%) 
+edges               104070/256000     416280/1024000  (40.7%) 
+LDR worldlights        716/8192        63008/720896   ( 8.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            358/32768        3580/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5487/65536       10974/131072   ( 8.4%) 
+cubemapsamples          86/1024         1376/16384    ( 8.4%) 
+overlays                 9/8192         3168/2883584  ( 0.1%) 
+LDR lightdata         [variable]    30263768/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      714875/16777216 ( 4.3%) 
+entdata               [variable]      558169/393216   (141.9%) VERY FULL!
+LDR ambient table    22320/65536       89280/262144   (34.1%) 
+HDR ambient table    22320/65536       89280/262144   (34.1%) 
+LDR leaf ambient     68788/65536     1926064/1835008  (105.0%) VERY FULL!
+HDR leaf ambient     22320/65536      624960/1835008  (34.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/2369772  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2326896/0        ( 0.0%) 
+physics               [variable]     2218971/4194304  (52.9%) 
+physics terrain       [variable]      198744/1048576  (19.0%) 
+
+Level flags = 0
+
+Total triangle count: 64165
+Writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+4 minutes, 59 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.prt...
+Building visibility clusters...
+done (0)
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-268.7 223.4 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2631202: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-260.3 231.9 228.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 2631195: 
+
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (2218971 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19806 texinfos to 6653
+Reduced 758 texdatas to 667 (35149 bytes to 31948)
+Writing C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_linford_dev.bsp
+9 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.prt
+3171 portalclusters
+9120 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 5026 visible clusters (0.61%)
+Total clusters visible: 830535
+Average clusters visible: 261
+Building PAS...
+Average clusters audible: 718
+visdatasize:714875  compressed from 2536800
+writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+1 minute, 52 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+PREP OK
+25100 faces
+8 degenerate faces
+12366292 square feet [1780745984.00 square inches]
+738 Displacements
+2950895 Square Feet [424928864.00 Square Inches]
+25092 patches before subdivision
+Zero area child patch at around 11590.505859 -9858.370117 520.000000
+613198 patches after subdivision
+light has _fifty_percent_distance of 993.000000 but _zero_percent_distance of 650.000000 @ (536.849976 -6295.169922 632.299988)
+716 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 41566014, max 521
+transfer lists: 317.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1792908, 1580342, 930049)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(124702, 98323, 55713)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(27443, 19012, 9342)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6552, 3817, 1662)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2019, 1013, 384)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(679, 272, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(247, 82, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(99, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(41, 9, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(8, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.2535 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 668/4096        32064/196608   (16.3%) 
+brushes               5474/16384       65688/196608   (33.4%) 
+brushsides           41504/163840     332032/1310720  (25.3%) 
+planes               28136/65536      562720/1310720  (42.9%) 
+vertexes             46026/65536      552312/786432   (70.2%) 
+nodes                21651/65536      692832/2097152  (33.0%) 
+texinfos              6653/16384      479016/1179648  (40.6%) 
+texdata                667/8192        21344/262144   ( 8.1%) 
+dispinfos              738/0          129888/0        ( 0.0%) 
+disp_verts           34634/0          692680/0        ( 0.0%) 
+disp_tris            51360/0          102720/0        ( 0.0%) 
+disp_lmsamples     1662860/0         1662860/0        ( 0.0%) 
+faces                25100/65536     1405600/3670016  (38.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            13082/65536      732592/3670016  (20.0%) 
+leaves               22320/65536      714240/2097152  (34.1%) 
+leaffaces            26462/65536       52924/131072   (40.4%) 
+leafbrushes          12336/65536       24672/131072   (18.8%) 
+areas                   32/1024          256/8192     ( 3.1%) 
+surfedges           166653/512000     666612/2048000  (32.5%) 
+edges               104070/256000     416280/1024000  (40.7%) 
+LDR worldlights        716/8192        63008/720896   ( 8.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            358/32768        3580/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5487/65536       10974/131072   ( 8.4%) 
+cubemapsamples          86/1024         1376/16384    ( 8.4%) 
+overlays                 9/8192         3168/2883584  ( 0.1%) 
+LDR lightdata         [variable]    30263768/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      714875/16777216 ( 4.3%) 
+entdata               [variable]      558169/393216   (141.9%) VERY FULL!
+LDR ambient table    22320/65536       89280/262144   (34.1%) 
+HDR ambient table    22320/65536       89280/262144   (34.1%) 
+LDR leaf ambient     68788/65536     1926064/1835008  (105.0%) VERY FULL!
+HDR leaf ambient     22320/65536      624960/1835008  (34.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/2369772  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2326896/0        ( 0.0%) 
+physics               [variable]     2218971/4194304  (52.9%) 
+physics terrain       [variable]      198744/1048576  (19.0%) 
+
+Level flags = 0
+
+Total triangle count: 64165
+Writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
+4 minutes, 47 seconds elapsed

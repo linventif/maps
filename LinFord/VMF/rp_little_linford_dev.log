@@ -1099,3 +1099,22 @@ Merged 2020 detail faces...done (0)
 Merging details...done (0)
 FixTjuncs...
 HashVec: point outside valid range
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\linventif\Documents\GitHub\maps\LinFord\VMF\rp_little_linford_dev.vmf
+Material not found!: JOHN/CA
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Error! prop_static using model "models/props/cs_assault/handtruck.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_assault/handtruck.mdl"!
+Static prop models/actu-gamework/starisland/contour-porte-blanc-universel.mdl outside the map (-5444.00, -2497.00, 574.00)
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_little_linford_dev.bsp
+reading c:\users\linventif\documents\github\maps\linford\vmf\rp_little_linford_dev.prt
+LoadPortals: couldn't read c:\users\linventif\documents\github\maps\linford\vmf\rp_little_linford_dev.prt
