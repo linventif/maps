@@ -1322,3 +1322,635 @@ Level flags = 0
 Total triangle count: 64165
 Writing c:\users\linventif\documents\github\maps\linford\vmf\rp_linford_dev.bsp
 4 minutes, 47 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.prt...
+Building visibility clusters...
+done (0)
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-268.7 223.4 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2631202: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-260.3 231.9 228.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 2631195: 
+
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (1770782 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17945 texinfos to 5827
+Reduced 595 texdatas to 513 (26206 bytes to 23315)
+Writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.bsp
+7 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.prt
+3145 portalclusters
+9010 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4848 visible clusters (0.61%)
+Total clusters visible: 801061
+Average clusters visible: 254
+Building PAS...
+Average clusters audible: 706
+visdatasize:697613  compressed from 2516000
+writing c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+1 minute, 56 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+PREP OK
+20407 faces
+8 degenerate faces
+12163566 square feet [1751553536.00 square inches]
+739 Displacements
+2959313 Square Feet [426141184.00 Square Inches]
+20399 patches before subdivision
+Zero area child patch at around 11590.505859 -9858.370117 520.000000
+572097 patches after subdivision
+light has _fifty_percent_distance of 993.000000 but _zero_percent_distance of 650.000000 @ (536.849976 -6295.169922 632.299988)
+622 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 39413426, max 521
+transfer lists: 300.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1794832, 1580403, 925378)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(124611, 98218, 55651)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(27465, 19030, 9350)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6555, 3820, 1663)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2020, 1013, 384)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(679, 272, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(247, 82, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(99, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(41, 9, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(8, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.2411 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 638/4096        30624/196608   (15.6%) 
+brushes               4289/16384       51468/196608   (26.2%) 
+brushsides           33872/163840     270976/1310720  (20.7%) 
+planes               25948/65536      518960/1310720  (39.6%) 
+vertexes             36414/65536      436968/786432   (55.6%) 
+nodes                17942/65536      574144/2097152  (27.4%) 
+texinfos              5827/16384      419544/1179648  (35.6%) 
+texdata                513/8192        16416/262144   ( 6.3%) 
+dispinfos              739/0          130064/0        ( 0.0%) 
+disp_verts           34715/0          694300/0        ( 0.0%) 
+disp_tris            51488/0          102976/0        ( 0.0%) 
+disp_lmsamples     1665932/0         1665932/0        ( 0.0%) 
+faces                20407/65536     1142792/3670016  (31.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            10489/65536      587384/3670016  (16.0%) 
+leaves               18581/65536      594592/2097152  (28.4%) 
+leaffaces            20882/65536       41764/131072   (31.9%) 
+leafbrushes          10034/65536       20068/131072   (15.3%) 
+areas                   32/1024          256/8192     ( 3.1%) 
+surfedges           132581/512000     530324/2048000  (25.9%) 
+edges                81887/256000     327548/1024000  (32.0%) 
+LDR worldlights        622/8192        54736/720896   ( 7.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            358/32768        3580/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5487/65536       10974/131072   ( 8.4%) 
+cubemapsamples          68/1024         1088/16384    ( 6.6%) 
+overlays                 4/8192         1408/2883584  ( 0.0%) 
+LDR lightdata         [variable]    28639912/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      697613/16777216 ( 4.2%) 
+entdata               [variable]      524081/393216   (133.3%) VERY FULL!
+LDR ambient table    18581/65536       74324/262144   (28.4%) 
+HDR ambient table    18581/65536       74324/262144   (28.4%) 
+LDR leaf ambient     64241/65536     1798748/1835008  (98.0%) VERY FULL!
+HDR leaf ambient     18581/65536      520268/1835008  (28.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/2369772  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     1829268/0        ( 0.0%) 
+physics               [variable]     1770782/4194304  (42.2%) 
+physics terrain       [variable]      199119/1048576  (19.0%) 
+
+Level flags = 0
+
+Total triangle count: 49816
+Writing c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+4 minutes, 19 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.prt...
+Building visibility clusters...
+done (1)
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-268.7 223.4 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2631202: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-260.3 231.9 228.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 2631195: 
+
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (1770782 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17945 texinfos to 5827
+Reduced 595 texdatas to 513 (26206 bytes to 23315)
+Writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.bsp
+7 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.prt
+3145 portalclusters
+9010 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 37947 visible clusters (3.35%)
+Total clusters visible: 1132802
+Average clusters visible: 360
+Building PAS...
+Average clusters audible: 1214
+visdatasize:932369  compressed from 2516000
+writing c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+PREP OK
+20407 faces
+8 degenerate faces
+12163566 square feet [1751553536.00 square inches]
+739 Displacements
+2959313 Square Feet [426141184.00 Square Inches]
+20399 patches before subdivision
+20399 patches after subdivision
+light has _fifty_percent_distance of 993.000000 but _zero_percent_distance of 650.000000 @ (536.849976 -6295.169922 632.299988)
+622 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1202996, max 376
+transfer lists:   9.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42618, 36202, 21834)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6131, 4470, 2443)
+Build Patch/Sample Hash Table(s).....Done<0.2329 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.prt...
+Building visibility clusters...
+done (0)
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-268.7 223.4 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2631202: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-260.3 231.9 228.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 2631195: 
+
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (1770782 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17945 texinfos to 5827
+Reduced 595 texdatas to 513 (26206 bytes to 23315)
+Writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.bsp
+7 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.prt
+3145 portalclusters
+9010 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 37947 visible clusters (3.35%)
+Total clusters visible: 1132802
+Average clusters visible: 360
+Building PAS...
+Average clusters audible: 1214
+visdatasize:932369  compressed from 2516000
+writing c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+PREP OK
+20407 faces
+8 degenerate faces
+12163566 square feet [1751553536.00 square inches]
+739 Displacements
+2959313 Square Feet [426141184.00 Square Inches]
+20399 patches before subdivision
+20399 patches after subdivision
+light has _fifty_percent_distance of 993.000000 but _zero_percent_distance of 650.000000 @ (536.849976 -6295.169922 632.299988)
+622 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1202996, max 376
+transfer lists:   9.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42618, 36202, 21834)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6131, 4470, 2443)
+Build Patch/Sample Hash Table(s).....Done<0.2045 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 638/4096        30624/196608   (15.6%) 
+brushes               4289/16384       51468/196608   (26.2%) 
+brushsides           33872/163840     270976/1310720  (20.7%) 
+planes               25948/65536      518960/1310720  (39.6%) 
+vertexes             36414/65536      436968/786432   (55.6%) 
+nodes                17942/65536      574144/2097152  (27.4%) 
+texinfos              5827/16384      419544/1179648  (35.6%) 
+texdata                513/8192        16416/262144   ( 6.3%) 
+dispinfos              739/0          130064/0        ( 0.0%) 
+disp_verts           34715/0          694300/0        ( 0.0%) 
+disp_tris            51488/0          102976/0        ( 0.0%) 
+disp_lmsamples     1665932/0         1665932/0        ( 0.0%) 
+faces                20407/65536     1142792/3670016  (31.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            10489/65536      587384/3670016  (16.0%) 
+leaves               18581/65536      594592/2097152  (28.4%) 
+leaffaces            20882/65536       41764/131072   (31.9%) 
+leafbrushes          10034/65536       20068/131072   (15.3%) 
+areas                   32/1024          256/8192     ( 3.1%) 
+surfedges           132581/512000     530324/2048000  (25.9%) 
+edges                81887/256000     327548/1024000  (32.0%) 
+LDR worldlights        622/8192        54736/720896   ( 7.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            358/32768        3580/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5487/65536       10974/131072   ( 8.4%) 
+cubemapsamples          68/1024         1088/16384    ( 6.6%) 
+overlays                 4/8192         1408/2883584  ( 0.0%) 
+LDR lightdata         [variable]    28639912/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      932369/16777216 ( 5.6%) 
+entdata               [variable]      524081/393216   (133.3%) VERY FULL!
+LDR ambient table    18581/65536       74324/262144   (28.4%) 
+HDR ambient table    18581/65536       74324/262144   (28.4%) 
+LDR leaf ambient     64503/65536     1806084/1835008  (98.4%) VERY FULL!
+HDR leaf ambient     18581/65536      520268/1835008  (28.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/2369772  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     1829268/0        ( 0.0%) 
+physics               [variable]     1770782/4194304  (42.2%) 
+physics terrain       [variable]      199119/1048576  (19.0%) 
+
+Level flags = 0
+
+Total triangle count: 49816
+Writing c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+4 minutes, 19 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.vmf
+Material not found!: FORK/WATER
+Material not found!: LINVENTIF/LINV_LINFORD_TP_CONCESS
+Material not found!: LINVENTIF/LINV_LINFORD_TP_FARM
+Material not found!: LINVENTIF/LINV_LINFORD_TP_MINE
+Material not found!: ARTHUR-TEXTURE/CAUTIONMINE
+Material not found!: METAL/METAL_PLATE01
+Material not found!: METAL/IBEAM_BROWN
+Material not found!: TSE/DOOR/DOOR_16
+Material not found!: VTEXTURES/YELLOWCURB_711
+Can't find surfaceprop sheetrock for material PLASTER/CEILING_POPCORN02, using default
+Material not found!: LINVENTIF/LINV_DSC
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE02, using default
+Patching WVT material: maps/rp_linford_dev/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/rp_linford_dev/pichot/grass/pichotgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.prt...
+Building visibility clusters...
+done (0)
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-268.7 223.4 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2631202: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-260.3 231.9 228.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 2631195: 
+
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (1770782 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17948 texinfos to 5827
+Reduced 595 texdatas to 513 (26206 bytes to 23315)
+Writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\maps\LinFord\VMF\rp_linford_dev.bsp
+6 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.prt
+3181 portalclusters
+9111 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 38060 visible clusters (3.30%)
+Total clusters visible: 1152061
+Average clusters visible: 362
+Building PAS...
+Average clusters audible: 1217
+visdatasize:944540  compressed from 2544800
+writing c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+PREP OK
+20436 faces
+8 degenerate faces
+12262112 square feet [1765744128.00 square inches]
+740 Displacements
+2976382 Square Feet [428599072.00 Square Inches]
+20428 patches before subdivision
+20428 patches after subdivision
+light has _fifty_percent_distance of 993.000000 but _zero_percent_distance of 650.000000 @ (536.849976 -6295.169922 632.299988)
+622 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1209461, max 376
+transfer lists:   9.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42618, 36202, 21835)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6132, 4471, 2444)
+Build Patch/Sample Hash Table(s).....Done<0.2103 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 638/4096        30624/196608   (15.6%) 
+brushes               4289/16384       51468/196608   (26.2%) 
+brushsides           33872/163840     270976/1310720  (20.7%) 
+planes               25942/65536      518840/1310720  (39.6%) 
+vertexes             36460/65536      437520/786432   (55.6%) 
+nodes                18022/65536      576704/2097152  (27.5%) 
+texinfos              5827/16384      419544/1179648  (35.6%) 
+texdata                513/8192        16416/262144   ( 6.3%) 
+dispinfos              740/0          130240/0        ( 0.0%) 
+disp_verts           34796/0          695920/0        ( 0.0%) 
+disp_tris            51616/0          103232/0        ( 0.0%) 
+disp_lmsamples     1671884/0         1671884/0        ( 0.0%) 
+faces                20436/65536     1144416/3670016  (31.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            10490/65536      587440/3670016  (16.0%) 
+leaves               18661/65536      597152/2097152  (28.5%) 
+leaffaces            20910/65536       41820/131072   (31.9%) 
+leafbrushes          10085/65536       20170/131072   (15.4%) 
+areas                   32/1024          256/8192     ( 3.1%) 
+surfedges           132701/512000     530804/2048000  (25.9%) 
+edges                81957/256000     327828/1024000  (32.0%) 
+LDR worldlights        622/8192        54736/720896   ( 7.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            358/32768        3580/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5487/65536       10974/131072   ( 8.4%) 
+cubemapsamples          68/1024         1088/16384    ( 6.6%) 
+overlays                 4/8192         1408/2883584  ( 0.0%) 
+LDR lightdata         [variable]    28686716/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      944540/16777216 ( 5.6%) 
+entdata               [variable]      524081/393216   (133.3%) VERY FULL!
+LDR ambient table    18661/65536       74644/262144   (28.5%) 
+HDR ambient table    18661/65536       74644/262144   (28.5%) 
+LDR leaf ambient     65036/65536     1821008/1835008  (99.2%) VERY FULL!
+HDR leaf ambient     18661/65536      522508/1835008  (28.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/2369772  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     1829268/0        ( 0.0%) 
+physics               [variable]     1770782/4194304  (42.2%) 
+physics terrain       [variable]      199410/1048576  (19.0%) 
+
+Level flags = 0
+
+Total triangle count: 49874
+Writing c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\maps\maps\linford\vmf\rp_linford_dev.bsp
+4 minutes, 20 seconds elapsed
